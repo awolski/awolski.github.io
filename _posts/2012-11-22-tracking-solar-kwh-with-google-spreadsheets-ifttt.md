@@ -9,7 +9,7 @@ About a month ago we had solar panels installed. Sixteen panels in total, thirte
 
 I check the meter every now and again to see how many kWhs we're producing. I've been surprised by the output on some days, and a little disappointed on others. One glorious October day we almost hit 16kWh. However on the frequent cloudy days here in the UK we're barely able produce 1 or 2kWh. Two days ago I thought the system had stopped altogether.
 
-![Solar Panels]({{ site.url }}/assets/img/2012-11-22-solar-panels.png)
+![Solar Panels]({{ site.url }}/assets/img/2012-11-22-solar-panels.jpg)
 
 I decided it would be valuable to have a record of how the system is performing. In particular, to compare what we're producing against the forecasts in the proposal given to us before the system was installed. Currently I don't think it's performing as well as I'd hoped. I would like to get a better idea of whether that is due to the weather or the system.
 
