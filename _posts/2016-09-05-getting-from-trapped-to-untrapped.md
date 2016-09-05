@@ -19,6 +19,5 @@ Getting from **trapped to untrapped**... big changes that have helped me live a 
 
 Another blog has just been added to my feed, and I'll be looking forward to reading about the decisions and changes Jay made along the way..
 
-
 [jay-austin-recap-reboot]: http://www.jayaustin.info/2016/08/recap-reboot.html
-[enjoying-a-lifetime-with-a-bit-of-work]: enjoying-a-lifetime-with-a-bit-of-work.md
+[enjoying-a-lifetime-with-a-bit-of-work]: enjoying-a-lifetime-with-a-bit-of-work
