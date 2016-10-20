@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Docker to spin up databases for development"
-permalink: using-docker-to-spin-up-databases-for-development
+permalink: using-docker-to-spin-up-databases-for-development/
 ---
 
 Using Docker to spin up production-like databases during application development can help take out the uncertainty of whether your changes will work when deployed to production. In this post, I'll show you how I use Docker to create a clean MySQL database that mirrors production each time a start development on a new feature.
