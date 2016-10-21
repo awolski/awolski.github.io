@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The benefits of waking early - part 2"
-permalink: the-benefits-of-waking-early-part-2
 ---
 
 Last week I wrote about [the benefits of waking early](http://blog.awolski.com/the-benefits-of-waking-early/) in the wake of my recent switch to pre-5:30am starts each day (pardon the pun).

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Local GitHub Pages in one command (with Docker)"
-permalink: local-github-pages-in-one-command-with-docker
+comments: true
 ---
 
 I wiped and installed [macOs Sierra][macos-sierra] on Macbook Pro on the weekend, something I like to do regularly to hone my reboot procedure with [my dotfiles][my-dotfiles] repo. Part of that procedure is to get my blog up and running, which runs on Jekyll and GitHub Pages. I like to edit a blog post locally, and run `bundle exec jekyll serve` to see how the layout looks locally before I push to GitHub.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Java Stormpath SDK behind a Proxy using Shiro JndiObjectFactory"
-permalink: stormpath-java-sdk-behind-a-proxy-using-shiro-jndiobjectfactory
 ---
 
 I needed to develop an application that used the Java Stormpath SDK from behind a corporate proxy. The SDK has a [Proxy](https://docs.stormpath.com/java/apidocs/index.html?com/stormpath/sdk/client/Proxy.html) class just for this purpose, but it doesn't conform to the [JavaBeans specification](http://www.oracle.com/technetwork/java/javase/documentation/spec-136004.html) (a good explanation of which can be found [here](http://stackoverflow.com/a/3295517/2309046)). The Proxy class has two constructors, both with arguments, and its fields are final. Because I'm using Apache Shiro and initialising the Stormpath client using a [shiro.ini configuration file](https://shiro.apache.org/configuration.html), I couldn't see a way to set the Proxy on the ClientBuilder where it was needed.

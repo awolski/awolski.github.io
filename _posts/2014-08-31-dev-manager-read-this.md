@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Dev manager, read this"
-permalink: dev-manager-read-this
 ---
 
 I clipped a link to [this article](http://www.activestate.com/blog/2014/08/microservices-and-paas-part-i) earlier this week, thinking it was one of the best things I've read on micro-services and continuous, PaaS and continuous delivery all year. But to be sure, I wanted to revisit it later, hence the clip to Evernote. I've just re-read it now, and it is. So many great nuggets of ~~information~~ experience to draw on from people who have been there, done that. It's the sort of article you just want to stick on your development manager's desk and with a note saying "this is how we need to be developing, deploying, delivering."

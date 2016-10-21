@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "CloudBees cd summit"
-permalink: cloudbees-cd-summit
 ---
 
 I've just registered for the [CloudBees continuous delivery summit](http://www.cloudbees.com/cdsummit) in London on 9th September.

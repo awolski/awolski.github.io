@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Never lose a code snippet again with GistBox"
-permalink: never-lose-a-code-snippet-again-with-gistbox
 ---
 
 Today I discovered a tool that is going to save me countless hours looking for old code snippets, scripts and commands. Today I discovered [GistBox](http://www.gistboxapp.com/). If you're not already familiar with the application, or with [GitHub Gists](https://gist.github.com/), read on and save yourself a bit of time and frustration.

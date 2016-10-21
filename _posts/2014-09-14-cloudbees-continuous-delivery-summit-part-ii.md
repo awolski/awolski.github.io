@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Cloudbees continuous delivery summit part II"
-permalink: cloudbees-continuous-delivery-summit-part-ii
 ---
 
 Today I went to the [Accelerating Innovation with Continuous Delivery summit](http://blog.awolski.com/cloudbees-cd-summit/) at [The Brewery](http://www.thebrewery.co.uk/) in London, a free one day event hosted by [CloudBees](http://www.cloudbees.com/). It was a really well organised event with some great speakers, and I’ve got Moleskin full of notes and ideas to take back to the office and try and somehow integrate into our development/delivery processes.

@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "JavaOne 2013 - Decompose that WAR! Architecting for Adaptability, Scalability and Deployability"
-date:   2013-12-18 10:17:34 +0000
-permalink: javaone-2013-decompose-that-war-architecting-for-adaptability-scalability-and-deployability
 ---
 
 Last night I watched the JavaOne 2013 session [Decompose that WAR! Architecting for Adaptability, Scalability and Deployability](http://parleys.com/play/525047b6e4b0c4f11ec5764b). The presenter was Chris Richardson, the author of [POJOs in Action](http://www.amazon.co.uk/POJOs-Action-Developing-Applications-Lightweight/dp/1932394583), and in the  talk he discusses how very large applications bundled into a single war, what he calls monolithic applications, can give you more headaches than the benefits they provide.

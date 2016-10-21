@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Blogging with Google voice to text"
-permalink: blogging-with-google-voice-to-text
 ---
 
 Things have been so busy recently that I have been finding it difficult  to create time to write. There just seems to be so much going on in life: family life, kids, work, trying to get a side business off the ground, maintaining some level of fitness by doing a WOD 4 to 5 times a week, let alone all the day to day things that need to get done. Even getting up at 5am, there's only ever an hour or so at the end of the day before I go to bed at 10pm, during which I'm usually getting some coding or reading done.

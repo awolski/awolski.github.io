@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Getting featured on stormpath.com"
-permalink: getting-featured-on-stormpath-com
 ---
 
 At the start of 2015 I set myself a goal to contribute more to the worldwide Java community. Getting involved in community discussions, forums and social media. Responding to more questions on [Stackoverflow.com](http://stackoverflow.com/). Contributing to an open source project (I'm still yet to choose which one(s)). I also started open sourcing some of the work I've been doing in my spare time. 

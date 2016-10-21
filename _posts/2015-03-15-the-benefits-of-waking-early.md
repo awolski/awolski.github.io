@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The benefits of waking early"
-permalink: the-benefits-of-waking-early
 ---
 
 I've found it difficult in the past to maintain, for any decent stretch of time, the practice of waking up early. There have been periods during which I have woken early for a few weeks, possibly even a few months, but it's never 'stuck' like I would like it to.

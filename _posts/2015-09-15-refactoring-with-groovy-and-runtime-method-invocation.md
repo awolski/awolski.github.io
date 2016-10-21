@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Refactoring with Groovy and runtime method invocation"
-permalink: refactoring-with-groovy-and-runtime-method-invocation
 ---
 
 You can do some pretty awesome things with Groovy. 

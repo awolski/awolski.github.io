@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Keeping a Primefaces MenuItem active"
-date:   2014-01-14 12:00:34 +0100
-permalink: keeping-a-primefaces-menuitem-active
 ---
 
 In an application I'm currently writing using Primefaces, I'm using a menu and individual menuItems to navigate to different pages. I wanted to keep the menuItem representing the current page to remain selected. For example, if the current page was /admin/users.xhtml, I wanted something like this:

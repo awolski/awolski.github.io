@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Running Liquibase against an existing database, part 2"
-date:   2014-07-23 06:31:00 +0100
-permalink: running-liquibase-against-an-existing-database-part-2
 ---
 
 It turns out integrating liquibase into an existing project/database is a lot easier than I originally thought...

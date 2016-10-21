@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Installing Liquibase Extensions"
-date:   2014-01-22 07:45:00 +0100
-permalink: installing-liquibase-extensions
 ---
 
 Since version 3.1, support for 'less common' databases has been removed from the core Liquibase distribution. This is documented Liquibase's supported databases page. I'm working with a DB2i database, so I needed to work out how to install the [liquibase-db2i](https://github.com/liquibase/liquibase-db2i) extension. I couldn't find any documentation anywhere, but I managed to nut out what was in the end a relatively trivial task...

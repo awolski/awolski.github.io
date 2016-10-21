@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Getting from trapped to untrapped"
-date:   2016-09-05 20:57:00 +0000
-permalink: getting-from-trapped-to-untrapped
 ---
 
 I was putting the finishing touches on the blog post I wrote yesterday about [enjoying a lifetime with a bit of work][enjoying-a-lifetime-with-a-bit-of-work] and found myself on Jay Austin's blog reading his recent posts. Aside from the initial pang of jealousy I had about the amount of travel he enjoys, I was struck by a couple of quotes and how closely they aligned the direction I'm taking my life.

@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "First Impressions of Ghost"
-date:   2014-04-18 23:44:00 +0000
-permalink: first-impression-of-ghost
 ---
 
 I've stuck with Blogger as my blogging platform for the last few years, mainly because it's free, but also because it's tied to my Google account and integrates well with other Google services like Google+ and Adsense. But mainly because it's free.

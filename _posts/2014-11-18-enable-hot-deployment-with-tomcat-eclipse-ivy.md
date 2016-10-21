@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Enable hot-deployment with Tomcat + Eclipse + Ivy"
-permalink: enable-hot-deployment-with-tomcat-eclipse-ivy
 ---
 
 I occasionally forget how to configure Tomcat and Eclipse so that my code changes hot-swapped into the JVM when running a web application in debug... here's how:

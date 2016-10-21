@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Laptop upgrade"
-permalink: laptop-upgrade
 ---
 
 Today I pulled the trigger on the purchase of a new laptop. Shit. I feel a little bit guilty sometimes for spending so big, because I'm pretty ~~tight~~ conservative when it comes to buying stuff (just ask my wife and friends). But as with all purchases this big, I find myself constantly questioning, and then trying to validate the spend... like I've got a devil on one shoulder saying *"go on, you know you want to"* and an angel on the other *"you're current laptop is just fine, you don't need a new one."* Today, finally, the devil won out.

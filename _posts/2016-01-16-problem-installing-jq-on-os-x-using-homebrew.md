@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Problem installing jq on OS X using Homebrew"
-permalink: problem-installing-jq-on-os-x-using-homebrew
 ---
 
 This is just a quick post for reference as I had issues installing [jq](https://stedolan.github.io/jq/) on my machine this evening.

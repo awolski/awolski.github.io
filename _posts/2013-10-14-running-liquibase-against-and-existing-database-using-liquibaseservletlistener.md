@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Running Liquibase against and existing database using LiquibaseServletListener"
-date:   2013-10-14 13:11:00 +0000
-permalink: running-liquibase-against-and-existing-database-using-liquibaseservletlistener
 ---
 
 I recently took on the task of integrating [Liquibase](http://www.liquibase.org/) into the project I'm working on at work. I'd played around with Liquibase before on small personal projects, but had never faced applying it to an existing, large and in-production database.

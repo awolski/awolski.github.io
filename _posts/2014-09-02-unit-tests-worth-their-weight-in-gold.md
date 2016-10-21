@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Unit tests: worth their weight in gold"
-permalink: unit-tests-worth-their-weight-in-gold
 ---
 
 For the whole of today, and a large chunk of yesterday, I laboured away writing a single unit test. Without context 1.5 days for a single unit test sounds pretty bad, but in my defence, the test involved mocking out numerous services and a deep understanding of the underlying model and a complex part of the system in order to set up the scenario I was trying to test. Because of this complexity, and the possibility of inadvertantly breaking existing functionality and/or business rules, I wanted to make *damn sure* my changes were sound.

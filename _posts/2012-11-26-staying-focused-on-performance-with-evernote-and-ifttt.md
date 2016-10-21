@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Staying Focused on Performance with Evernote and IFTTT"
-date:   2012-11-26 21:46:34 +0100
-permalink: staying-focused-on-performance-with-evernote-and-ifttt
 ---
 
 I've always been one of those people who has all the best intentions at the start of a school, university or work year, to get organised, streamlined, and productive. I usually feel optimistic and determined... It's a clean slate, a fresh new page of a brand new notebook.

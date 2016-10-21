@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Build scripts - don't modify my files!"
-date:   2014-08-06 18:52:00 +0000
-permalink: build-scripts-dont-modify-my-files
 ---
 
 One of my pet hates when it comes to development is a build script or an IDE that modifies project/config files so that the project looks like it's modified in the IDE.

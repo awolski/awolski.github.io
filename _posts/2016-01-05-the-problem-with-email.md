@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The problem with email"
-permalink: the-problem-with-email
 ---
 
 It seems to me that email is not the most effective means of communication anymore. I could count dozens of instances in recent yearsin which there have been serious disconnects in the teams and organisations I've worked for, in which information is not getting to all the relevant parties. Like the synapses of our collective brain were not connected all the required neurons.

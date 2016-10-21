@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The things you discover... httpie and jq"
-permalink: the-things-you-discover-jq-and-httpie
 ---
 
 Sometimes working with technology you feel so far behind the eight ball. Like, how do you **not** know about some of the awesome tools out there that *could* have made your life so much easier before now. This week I was introduced to two such tools, [httpie](https://github.com/jkbrzt/httpie) and [jq](https://stedolan.github.io/jq/). I just know that the combination of these two command line apps are going to come in real handy.

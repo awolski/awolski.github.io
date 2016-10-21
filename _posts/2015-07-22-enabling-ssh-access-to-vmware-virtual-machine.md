@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Enabling ssh access to VMWare virtual machine"
-permalink: enabling-ssh-access-to-vmware-virtual-machine
 ---
 
 I'm in the process of creating a Vagrant box for a VMWare VM for a machine I'm working on, the end goal being fully automated development environment built so that new developers can get up and running quick-smart.

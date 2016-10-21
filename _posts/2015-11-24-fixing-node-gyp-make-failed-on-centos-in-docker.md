@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Fixing node-gyp make failed on centos in Docker"
-permalink: fixing-node-gyp-make-failed-on-centos-in-docker
 ---
 
 I've had this issue pop up time and time again, so I wanted to document it so that I won't forget in the future. The error below occurs when executing `RUN npm install sinopia` in a Dockerfile FROM centos:6.6 (no doubt this isn't specific to Docker).

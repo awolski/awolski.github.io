@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Upgrade Docker on Travis CI"
-permalink: upgrade-docker-on-travis-ci
 ---
 
 If you need to make use of Docker's latest and greatest features — like [build time arguments](http://docs.docker.com/engine/reference/builder/#arg) — in your travis-ci builds, you can easily do so by upgrading the default docker-engine version travis-ci's build environment. Read on to find out how...

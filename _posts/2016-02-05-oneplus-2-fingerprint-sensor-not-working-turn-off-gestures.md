@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "OnePlus 2 fingerprint sensor not working? Turn off gestures"
-permalink: oneplus-2-fingerprint-sensor-not-working-turn-off-gestures
 ---
 
 My OnePlus 2 fingerprint sensor stopped working about a month ago. I thought it must have been a delayed result of my 1 year old boy hurling it into the bath and it being submerged on the bottom for a good 5 seconds. But my wife was quick to react and rushed it to intensive care (a bowl full of rice), and after a couple of days — and to my surprise — the phone worked perfectly. 

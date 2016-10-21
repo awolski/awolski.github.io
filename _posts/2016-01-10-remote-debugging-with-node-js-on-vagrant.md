@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Remote debugging with Node.js on Vagrant"
-permalink: remote-debugging-with-node-js-on-vagrant
 ---
 
 I recently worked out worked out how to remote debug from my Macbook Pro to a Node.js server running on a CentOS 6.6 VirtualBox VM created by Vagrant. No more development tools like WebStorm on a VM as I can now use them from my Mac.

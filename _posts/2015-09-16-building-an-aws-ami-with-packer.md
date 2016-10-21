@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Problems building a CentOS AWS AMI with Packer"
-permalink: building-an-aws-ami-with-packer
 ---
 
 I'm in the early stages of working with (awesome) tools like Packer and [Terraform](https://www.terraform.io/) and I ran into a few issues whilst trying to create a base image that mirrors the production environment we're deploying to. I wanted to document them here to a) engrain what I'm learning and b) document the solutions for future reference.

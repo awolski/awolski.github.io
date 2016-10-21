@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Signing in to EC2 instance with an AWS generated key pair"
-permalink: signing-in-to-ec2-instance-with-an-aws-generated-key-pair
 ---
 
 Today I hit an issue signing in to an new ec2 instance using a private key I generated and downloaded on AWS. 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Considering Microservices"
-permalink: considering-microservices
 ---
 
 One of the most valuable blogs I subscribe to is [Martin Fowler's](http://martinfowler.com/). I say valuable because every post he creates makes me a better developer. His posts are always thoughtful, insightful, detailed and thorough. You just know each one packs so much experience behind it you'd have to be a fool not to take his insights board.
