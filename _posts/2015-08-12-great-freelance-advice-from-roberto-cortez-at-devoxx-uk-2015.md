@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Great freelance advice from Roberto Cortez at Devoxx UK 2015"
-permalink: great-freelance-advice-from-roberto-cortez-at-devoxx-uk-2015
 ---
 
 

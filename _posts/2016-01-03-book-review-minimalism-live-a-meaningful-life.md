@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Book Review - Minimalism: Live a Meaningful Life"
-permalink: book-review-minimalism-live-a-meaningful-life
 ---
 
 I picked up this [book](http://www.theminimalists.com/lml/) the day after Christmas when both my wife and I were overwhelmed with the sheer quantity of gifts that we and this kids had been given for Christmas. I spent the early part of that day reading the free PDF version of the book, and then finishing the majority of it in the bath with a glass of wine in the evening. The rest of the day, in between playing with the kids with their new toys, was dedicated to a huge toy cull and reorganisation minimalisation. We just didn't have the space for anything to put the new things, and we were both completely overwhelmed.

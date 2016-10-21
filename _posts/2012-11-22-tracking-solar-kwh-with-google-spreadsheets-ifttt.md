@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Tracking solar kWh with Google Spreadsheets & IFTTT"
-date:   2012-11-22 21:46:34 +0100
-permalink: tracking-solar-kwh-with-google-spreadsheets-ifttt
 ---
 
 About a month ago we had solar panels installed. Sixteen panels in total, thirteen split over two sections of the roof and five on the garage, totalling a 4kW system. I hadn't considered solar when we bought the house, but fortunately we have south-east and south-west facing sides of the house, and after a little research, solar turned out to be the best investment with the money available to invest.

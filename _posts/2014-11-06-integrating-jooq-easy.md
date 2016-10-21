@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Integrating JOOQ... easy"
-permalink: integrating-jooq-easy
 ---
 
 Integrating [JOOQ](http://www.jooq.org/) into your application is a [piece of piss](http://www.urbandictionary.com/define.php?term=piece%20of%20piss), as I discovered recently when I needed to build some non-ORM/Hibernate database access into some reports. I'm upgrading the reports component of an application I develop and needed to add some *performant* metrics. I didn't want to use direct SQL or JDBC, so I decided to see how JOOQ performed... and I was pleasantly surprised at how simple it was to set up and use.

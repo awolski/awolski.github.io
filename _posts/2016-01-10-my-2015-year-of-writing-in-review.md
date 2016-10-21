@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "My 2015 year of writing in review"
-permalink: my-2015-year-of-writing-in-review
 ---
 
 Note: I started this post on new year's eve and am only just getting around to finishing it now. Not a good start to my writing year!

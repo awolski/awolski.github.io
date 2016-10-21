@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "AWS access control policies and IAM best practices"
-permalink: aws-access-control-policies-and-iam-best-practices
 ---
 
 I watched a couple of great videos today on AWS Identity and Access Management (IAM) best practices, and what's possible with access control policies. I thought I'd post a few of the key takeaways here in order to drum them home, and for future reference.

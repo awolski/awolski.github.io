@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Simple and powerful Java metrics with... Metrics"
-permalink: simple-and-poejava-metrics-with-metrics
 ---
 
 You're aware that part of your application is performing poorly and you need to find out exactly what and where, fast. So what do you do? You whack in a few `System.currentTimeMillis();` calls, subtract the difference and do some conversions, right? WRONG. Give yourself a clip over the ears. And then go and check out [Metrics](https://dropwizard.github.io/metrics).

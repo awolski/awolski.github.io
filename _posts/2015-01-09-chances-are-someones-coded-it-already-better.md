@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Chances are someone's coded it already. Better."
-permalink: chances-are-someones-coded-it-already-better
 ---
 
 Before you go and write that feature or half-baked code or API, spend some time searching for it. Search in your own code base, on Google, on GitHub, anywhere. Because chances are, somebody has already written code that does exactly what you need. Better than the half-baked shite you're about to churn out too.

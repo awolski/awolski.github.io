@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Random 'Permission denied (publickey)' error in Travis"
-permalink: sudden-permission-denied-publickey-error-in-travis
 ---
 
 This morning I hit a random issue in Travis (Pro), in that all of a sudden a build could not clone a GitHub repository:

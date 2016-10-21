@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Parallel deployment in Tomcat"
-permalink: parallel-deployment-in-tomcat
 ---
 
 Recently I've been looking for the ~~right~~ best way to deploy an application with zero downtime. My search led me to a nifty feature introduced into Tomcat 7 called [parallel deployment](http://tomcat.apache.org/tomcat-7.0-doc/config/context.html#Parallel_deployment). Parallel deployment allows you to deploy multiple versions of a web application with the same context path at the same time.

@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Specifying the location of shiro.ini"
-date:   2014-08-01 17:54:00 +0100
-permalink: specifying-the-location-of-shiro-ini
 ---
 
 I've been working on switching the identity and security management libraries in one of my applications from [Seam Security/PicketLink IDM](http://docs.jboss.org/seam/3/security/latest/reference/en-US/html/security-identitymanagement.html) to [Shiro](http://shiro.apache.org/) backed by [Stormpath](https://stormpath.com/). Shiro and Stormpath are really quite easy to set up, and there are some [good guides](https://github.com/stormpath/stormpath-shiro/wiki) out there to help you get up and running. For me, everything was going really well in my local development environment, but when I finally pushed these changes to my hosting provider, [Jelastic](http://jelastic.com/), I hit an issue...

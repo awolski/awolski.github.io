@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Mockito Javadoc. The best use of Javadoc, ever"
-permalink: mockito-javadocs-the-best-use-of-javadoc-ever
 ---
 
 Whilst writing a few test cases this morning using [Mockito](https://github.com/mockito/mockito) as my mocking framework, I was browsing Mockito's official [documentation](http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html). I was particularly impressed with the conciseness of the examples and explanations. In no time at all I had the information I needed. Then it dawned on me that these beautifully formatted, thoroughly useful help pages were generated using the [Javadoc documentation tool](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CCkQFjAB&url=http%3A%2F%2Fwww.oracle.com%2Ftechnetwork%2Farticles%2Fjava%2Findex-jsp-135444.html&ei=YJoZVfD-BYTcas7XgOgN&usg=AFQjCNFEz_fxLI435eayi9HEMEKceAL3vw&sig2=1UR3I3TiBO_Uj3xfQMZVUg)... I was gobsmacked. I've never seen such a fantastic use of Javadoc before. In fact, I was a bit jealous that I'd never thought to use the Javadoc tool in such away before.

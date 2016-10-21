@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Is it time to get off the JSF bandwagon?"
-date:   2014-02-27 07:45:00 +0100
-permalink: is-it-time-to-get-off-the-jsf-bandwagon
 ---
 
 I watched a pertinent video tonight: ["Comparing JVM Web Frameworks" by Matt Raible](http://www.youtube.com/watch?v=ygW8fJVlDxQ). It was a really interesting presentation, and quite applicable to me at the moment because I'm trying to do decide an a new architecture and web framework for an application I've developed... one that currently uses Primefaces.

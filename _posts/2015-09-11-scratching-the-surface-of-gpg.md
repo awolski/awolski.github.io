@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Scratching the surface of GPG"
-permalink: scratching-the-surface-of-gpg
 ---
 
 This post is just a reference really to document my beginnings with GPG so that I can refer to it in the future. The [GNU Privacy Handbook](https://www.gnupg.org/gph/en/manual.html) is a great reference.

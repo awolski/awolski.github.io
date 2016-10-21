@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Making Time Blocking Work with Google Calendar"
-permalink: making-time-blocking-work-with-google-calendar
 ---
 
 I'm a big fan of Cal Newport's Study Hack's blog, and have made several attempts at adopting a number of his practices, like [daily shutdown rituals](http://calnewport.com/blog/2009/06/08/drastically-reduce-stress-with-a-work-shutdown-ritual/), [weekly planning](http://calnewport.com/blog/2014/08/08/deep-habits-plan-your-week-in-advance/) and [time blocking](http://calnewport.com/blog/2013/12/21/deep-habits-the-importance-of-planning-every-minute-of-your-work-day/). I've had varying degrees of success implementing these rituals. However none of them — over the long term — have become a habit that has stuck. 

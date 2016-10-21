@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Power searching in JIRA"
-date:   2012-11-26 21:33:34 +0000
-permalink: power-searching-in-jira
 ---
 
 I was promoted to Java Team Lead earlier this year, a role that comes with the responsibility of doing performance reviews biannually. In my first four months in the position I haven't really worked closely with my team at all; they're on completely different projects, and they are all just as busy as I am.

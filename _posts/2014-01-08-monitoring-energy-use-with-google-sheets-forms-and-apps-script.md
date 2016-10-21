@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Monitoring energy use with Google Sheets, Forms and Apps Script"
-date:   2014-01-08 12:00:00 +0000
-permalink: monitoring-energy-use-with-google-sheets-forms-and-apps-script
 ---
 
 I recently set up a nifty little Google Apps Script app using Sheets and Forms to track our electricity and gas consumption, and our solar generation. As Steve Howard - chief sustainability officer at IKEA - said in his TED talk Let's go all-in on selling sustainability, "If you're not measuring things, you don't care, and you don't know." I want to know exactly how much energy we are using so that I can make efficiency adjustments over time, and know exactly how each one performs. How are you supposed to know why your bills are so high, or how to reduce them if you need to, when you don't know what you're actually using?

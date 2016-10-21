@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Laptop upgrade part 2"
-permalink: laptop-upgrade-part-2
 ---
 
 I'm loving the [new Macbook](http://blog.awolski.com/laptop-upgrade/) Pro Retina (3.0GHz Dual-core Intel Core i7, 16GB 1600MHz DDR3L SDRAM). It's a beautiful machine, and so far it has been a joy to use. My first order of business was to setup an environment from which I can work from home, which means VMWare hosting Windows. I've dedicated 4GB RAM to it and it runs like a dream, and with three finger swipe and can switch between it and my other OS X workspaces in no time. And it's nice to see even with Windows running in a virtual machine, I've still got 10GB+ of RAM left to play with.

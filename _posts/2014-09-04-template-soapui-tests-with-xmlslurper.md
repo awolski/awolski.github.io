@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Template SoapUI tests with XmlSlurper"
-permalink: template-soapui-tests-with-xmlslurper
 ---
 
 In between urgent bug fixes and planned sprint work I've been trying to find time to write an automated test suite with [SoapUI](http://www.soapui.org/) to verify some of the things we can't in [unit tests](http://blog.awolski.com/unit-tests-worth-their-weight-in-gold/). After writing a few SoapUI tests by copying the same SOAP request between test cases, but slightly modifying the content of one or two elements, I wondered whether it would be ~~easier~~ smarter to reuse a template SOAP request and somehow replace only the element/attribute content that differs between tests.

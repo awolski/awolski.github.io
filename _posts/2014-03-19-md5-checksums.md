@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "MD5 Checksums"
-date:   2014-03-19 23:00:00 +0000
-permalink: md5-checksums
 ---
 
 Tonight I downloaded and installed [JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) on my Macbook. I'm keen to get started playing around with the some of new features, in particular Lambdas and the [Streams API](http://download.java.net/jdk8/docs/api/java/util/stream/Stream.html); I really think these will streamline some of my code without having to incorporate Groovy (or similar) to get similar features, and then having to mess about with different compilers and Maven/Gradle plugins.

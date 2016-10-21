@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Failing aws cli on Docker container with old date time"
-date:   2016-07-25 21:46:34 +0100
-permalink: failing-aws-cli-on-docker-container-with-old-date-time
 ---
 Today I hit an issue which completely stumped me (for a while). Running an `aws s3 cp` from a Docker container — that had *never* failed before in the same scenario — was failing every time with '`A client error (403) occurred when calling the HeadObject operation: Forbidden`'. When run from my Mac directly with the same `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` it worked. **WTF!**
 

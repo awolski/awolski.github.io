@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Immutable. Um, no it isn't"
-permalink: immutable-um-no-it-isnt
 ---
 
 When you're working on a large project for which the code base has been around for a long time, you have the pleasure (cough) of seeing some pretty 'interesting' code. 

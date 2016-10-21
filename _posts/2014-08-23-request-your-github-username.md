@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Request your GitHub username"
-permalink: request-your-github-username
 ---
 
 Consistency is a good thing. It's nice (though increasingly rare) to have the same username on all the sites you use on the web. But unless you've got some random mashing of letters and numbers, it's difficult to 'nab' your preferred username.

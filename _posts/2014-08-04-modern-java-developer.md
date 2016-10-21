@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Modern Java developer"
-date:   2014-08-04 20:00:00 +0100
-permalink: modern-java-developer
 ---
 
 I was reading through my Feedly feed a couple of days ago and came across [this article](http://jaxenter.com/the-in-tools-ten-technologies-you-should-know-about-50852.html), a repost of Zero Turnaround's [10 Kick Ass Technologies Modern Developers Love](http://zeroturnaround.com/rebellabs/10-kick-ass-technologies-modern-developers-love/). I was pleasantly surprised as I read through the list that I know and frequently use the majority of them:

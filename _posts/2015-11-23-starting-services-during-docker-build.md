@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Starting and using a service during Docker build"
-permalink: starting-services-during-docker-build
 ---
 
 **Problem**: You're building a image from a Dockerfile and you need to interact with a running process during the build of the said image. How? I really struggled with this question for some time, but I've since discovered the solution. Read on to find out how...

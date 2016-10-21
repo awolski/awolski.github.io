@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Enjoying a lifetime with a bit of work"
-date:   2016-09-04 20:42:00 +0000
-permalink: enjoying-a-lifetime-with-a-bit-of-work
 ---
 
 I watched the [minimalism film][minimalismfilm] for the second time last night, and I enjoyed it even more this time around. It certainly won't be the last time I watch it. There is a minimalist's travel bag chock-full of incredible quotes and realisations, and inspiring people and real life examples in the film.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Connecting to MySQL on Vagrant guest on Windows"
-permalink: connecting-to-mysql-on-vagrant-guest-on-windows
 ---
 
 Last week I set up a Vagrant box with Tomcat, MariaDB and a couple of Java web applications so that our testers could quickly get started on their own private instances. Being able to run locally, upgrade the applications and database when they like will be a real productivity win for us... I'm not saying anything about the efficiency of IT support ;-). 

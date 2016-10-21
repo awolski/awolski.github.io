@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Mini journal with Twitter, IFTTT and Evernote"
-permalink: mini-journal-with-twitter-ifttt-and-evernote
 ---
 
 I've often wished I had kept a diary throughout the years. Friends and family will recollect things that have completely vanished from my memory, and I'll think to myself "If only I had jotted something down about that I could go back to and trigger some of those memories." But alas, I never manage to maintain a regular journal schedule; only in fits and starts.

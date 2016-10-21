@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Code faster"
-permalink: code-faster
 ---
 
 Some of the shortcuts that modern IDEs offer can significantly increase the efficiency at which developers churn out code. The problem is, a lot of developers don’t bother learning them. However if you invest a bit of time each day learning the keyboard shortcuts, code assist and coding templates of your IDE and you’ll have your feet up while your colleagues are still hard at it. 

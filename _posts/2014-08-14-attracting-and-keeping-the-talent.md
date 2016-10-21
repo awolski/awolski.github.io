@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Attracting the best developers"
-permalink: attracting-and-keeping-the-talent
 ---
 
 I was whittling away at my Feedly feed tonight (which has built up in recent weeks, no small thanks to my colicky new baby boy Bodhi) when I reached an article from the Typesafe blog, [Q&A with Kevin Webber](http://typesafe.com/blog/qa-with-kevin-webber). One sentence in particular caught my attention:

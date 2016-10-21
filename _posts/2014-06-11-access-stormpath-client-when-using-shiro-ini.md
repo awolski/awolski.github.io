@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Accessing Stormpath Client when using shiro.ini"
-date:   2014-06-11 20:14:00 +0000
-permalink: template
 ---
 
 I ran into a problem recently while trying to get access to the `com.stormpath.sdk.client.Client` instance when it is initialised by [Apache Shiro](http://shiro.apache.org/documentation.html)'s `shiro.ini` configuration. I couldn't find any help in the [Shiro](http://shiro.apache.org/webapp-tutorial.html) or [Stormpath](https://github.com/stormpath/stormpath-shiro/wiki) documentation.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "How I keep up with the rapid pace of tech"
-permalink: how-i-keep-up-with-the-rapid-pace-of-tech
 ---
 
 I recently attended the London edition of [Thoughtworks' Tech Radar](http://www.thoughtworks.com/radar) event. I really enjoyed the gathering, as it introduced me to a range of [Techniques](http://www.thoughtworks.com/radar/techniques), [Tools](http://www.thoughtworks.com/radar/tools), [Platforms](http://www.thoughtworks.com/radar/platforms), [Languages & Frameworks](http://www.thoughtworks.com/radar/languages-and-frameworks). And it was great to the hear the opinions of two really in-touch, smart and interesting guys, including [Ian Cartwright](https://www.linkedin.com/pub/ian-cartwright/0/952/282).
