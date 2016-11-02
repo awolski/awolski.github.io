@@ -4,22 +4,24 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  {% assign post = site.posts.first %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="recent-post">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">{{ post.title }}</h1>
 
-        <p>{{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
+      </header>
 
+      <div class="post-content" itemprop="articleBody">
+        {{ post.content }}
+      </div>
+
+    </article>
+  </div>
+
+  <p class="archives"><a href="{{ "/archives" | prepend: site.baseurl }}">See all posts</a></p>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
