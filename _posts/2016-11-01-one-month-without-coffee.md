@@ -9,7 +9,7 @@ I started my month without coffee experiment for a number of reasons:
 
 ### Break a dependency
 
-Making a coffee first thing in the morning was just what I did in the morning; wake up, downstairs, make coffee, without even thinking about it.
+Making a coffee first thing was just what I did in the morning out of habit; wake up, downstairs, make coffee, without even thinking about it.
 
 I depended on coffee, period. I was a 4+ cup a day man, and without at least 3 cups per day my body (headaches) and mind (moods) were affected.  Here are the first two days entries of my month without coffee journal:
  
