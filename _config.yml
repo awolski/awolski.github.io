@@ -9,7 +9,7 @@
 title: Experiments in simplicity
 email:
 description: > # this means to ignore newlines until "baseurl:"
-  Removing the trivial many to focus on the vital few.
+  Remove the trivial many. Focus on the vital few.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.awolski.com" # the base hostname & protocol for your site
 github_username:  awolski
