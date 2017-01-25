@@ -10,3 +10,7 @@
 .archives .post-list > li {
   margin-bottom: 3px;
 }
+
+a h1 {
+  color: #000;
+}
