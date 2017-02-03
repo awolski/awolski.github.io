@@ -1,26 +1,95 @@
 ---
 layout: post
-title:  "Appearing clueless in extraneous matters"
+title:  "Creating a database and namespace in Intersystems Caché using expect"
 ---
 
-> “If you wish to improve,” Epictetus once said, “be content to appear clueless or stupid in extraneous matters.”
+```
+# ccontrol start CACHE                                                                                                                                                                                                                              
+Starting CACHE
+using 'cache.cpf' configuration file
 
-Ahhhh... that feels good.
+Automatically configuring buffers
+Allocated 335MB shared memory: 249MB global buffers, 24MB routine buffers
+Creating a WIJ file to hold 31 megabytes of data
+This copy of Cache has been licensed for use exclusively by:
+VA VHA CBO Kiosk Program
+Copyright (c) 1986-2015 by InterSystems Corporation
+Any other use is a violation of your license agreement
 
-I came across this wise piece of advice whilst reading [Want to Really Make America Great Again? Stop Reading the News][stop-reading-the-news] by [Ryan Holiday][ryan-holiday]. It feels good because I'm more often than not uninformed — unaware even — about extraneous matters like current events. Holiday goes on...
+1 alert(s) during startup. See cconsole.log for details.
 
-> One of the most powerful things we can do as a human being in our hyperconnected, 24/7 media world is say: “I don’t know.” Or, more provocatively: “I don’t care.”
+[root@c8018cbd7924 /]# csession CACHE <ENTER>
 
-Even better. It's incredibly comforting to know that smart men have adopted the same beliefs and behaviours you have. Particularly when you occasionally question those beliefs and behaviours because they don't conform with those of the general population. 
+Node: c8018cbd7924, Instance: CACHE <ENTER>
 
-I don't read or watch much news, or spend much time on social media, for a number of [reasons][quit-social-media]. A direct result of this choice is that I don't know much about much. You can bet your arse that when I get together with a group of friends there will be a slew of recent (usually shocking) newsworthy stories that dominate the conversation, that I know nothing or very little about. The only way I'm able to participate in said conversations is to ask questions. Sometimes I do feel clueless _and_ stupid, despite having made the deliberate choice to be uninformed. 
+USER>d ^%MGDIR <ENTER>
+You're in namespace %SYS
+Default directory is /opt/cache/mgr/
+%SYS>d ^DATABASE <ENTER>
 
-Don't get me wrong, I'm not completely impervious to the addictiveness of modern news and social media. I occasionally scan through the landing page of Google News, and if an article really catches my eye I'll open it in a new tab. Once a week I'll login to Facebook and scroll the news feed for a couple of minutes, which inevitably turns into more like 10-15 minutes. But I almost always regret it. Bite size chunks of my life gone, consuming... what? Fluff. Time I could have spent better producing, _really_ contributing.
 
-Holiday says it best:
+ 1) Create a database
+ 2) Edit a database
+ 3) List databases
+ 4) Delete a database
+ 5) Mount a database
+ 6) Dismount a database
+ 7) Compact globals in a database
+ 8) Show free space for a database
+ 9) Show details for a database
+10) Recreate a database
+11) Manage database encryption
+12) Return unused space for a database
+13) Compact freespace in a database
+14) Defragment globals in a database
 
-> We’re aghast at what is exposed to us…yet no real changes result from it. No one is listening to you—they’re laughing at you. They’re glad you’re distracted. They’re happy you’re posting on social media, because it means you’re not showing up at city council meetings, because it means you’re not voting.
+Option? 1 <ENTER>
+Database directory? /opt/cache/mgr/vistajs <ENTER>
+Directory does not exist, create it? No => Yes <ENTER>
+Change default database properties? No => <ENTER>
+Dataset name of this database in the configuration: VISTAJS <ENTER>
+Mount VISTAJS Required At Startup? No => Yes <ENTER>
+Confirm creation of database in /opt/cache/mgr/vistajs/? Yes => <ENTER>
+Formatting...
+Database in /opt/cache/mgr/vistajs/ created
+Dataset VISTAJS added to the current configuration.
+Database directory? <ENTER>
 
-[ryan-holiday]: http://ryanholiday.net/
-[stop-reading-the-news]: http://observer.com/2016/11/want-to-really-make-america-great-again-stop-reading-the-news/
-[quit-social-media]: http://calnewport.com/blog/2016/09/21/quit-social-media/
+ 1) Create a database
+ 2) Edit a database
+ 3) List databases
+ 4) Delete a database
+ 5) Mount a database
+ 6) Dismount a database
+ 7) Compact globals in a database
+ 8) Show free space for a database
+ 9) Show details for a database
+10) Recreate a database
+11) Manage database encryption
+12) Return unused space for a database
+13) Compact freespace in a database
+14) Defragment globals in a database
+
+Option?
+%SYS>s Name="VISTAJS" <ENTER>
+
+%SYS>s Properties("Globals")="VISTAJS" <ENTER>
+
+%SYS>s Status=##Class(Config.Namespaces).Create(Name,.Properties)
+```
+
+Once the database and namespace are created, we need to create the the global and routine mappings. To do this we can simply add a Map section in cache.cpf file and restart Caché:
+
+```
+[Map.VISTAJS]
+Global_%Z*=VISTAJ
+Routine_%DT*=VISTAJS
+Routine_%RCR=VISTAJS
+Routine_%XU*=VISTAJS
+Routine_%ZIS*=VISTAJS
+Routine_%ZO*=VISTAJS
+Routine_%ZT*=VISTAJS
+Routine_%ZV*=VISTAJS
+```
+
+Appending this to the end of cache.cpf is fine; Caché will move it to the correct section upon restart.
