@@ -3,7 +3,7 @@ layout: post
 title:  "Template SoapUI tests with XmlSlurper"
 ---
 
-In between urgent bug fixes and planned sprint work I've been trying to find time to write an automated test suite with [SoapUI](http://www.soapui.org/) to verify some of the things we can't in [unit tests](http://blog.awolski.com/unit-tests-worth-their-weight-in-gold/). After writing a few SoapUI tests by copying the same SOAP request between test cases, but slightly modifying the content of one or two elements, I wondered whether it would be ~~easier~~ smarter to reuse a template SOAP request and somehow replace only the element/attribute content that differs between tests.
+In between urgent bug fixes and planned sprint work I've been trying to find time to write an automated test suite with [SoapUI](http://www.soapui.org/) to verify some of the things we can't in [unit tests](http://awolski.com/unit-tests-worth-their-weight-in-gold/). After writing a few SoapUI tests by copying the same SOAP request between test cases, but slightly modifying the content of one or two elements, I wondered whether it would be ~~easier~~ smarter to reuse a template SOAP request and somehow replace only the element/attribute content that differs between tests.
 
 With a little bit of Groovy (specifically [XmlSlurper](http://groovy.codehaus.org/Reading+XML+using+Groovy's+XmlSlurper)) you can, and here's how I did it.*
 

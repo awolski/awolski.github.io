@@ -32,51 +32,51 @@ So a look back over the posts I created in 2015:
 
 **January**
 
-* [Never lose a code snippet again with GistBox](http://blog.awolski.com/never-lose-a-code-snippet-again-with-gistbox/)
-* [Simple and powerful Java metrics with... Metrics](http://blog.awolski.com/simple-and-poejava-metrics-with-metrics/)
-* [Immutable. Um, no it isn't](http://blog.awolski.com/immutable-um-no-it-isnt/)
-* [Chances are someone's coded it already. Better.](http://blog.awolski.com/chances-are-someones-coded-it-already-better/)
-* [Turn up](http://blog.awolski.com/turn-up/)
+* [Never lose a code snippet again with GistBox](http://awolski.com/never-lose-a-code-snippet-again-with-gistbox/)
+* [Simple and powerful Java metrics with... Metrics](http://awolski.com/simple-and-poejava-metrics-with-metrics/)
+* [Immutable. Um, no it isn't](http://awolski.com/immutable-um-no-it-isnt/)
+* [Chances are someone's coded it already. Better.](http://awolski.com/chances-are-someones-coded-it-already-better/)
+* [Turn up](http://awolski.com/turn-up/)
 * [Code faster](Code faster)
 
 **March**
 
 * [Getting featured on stormpath.com](Getting featured on stormpath.com)
-* [Then benefits of waking early](http://blog.awolski.com/the-benefits-of-waking-early/)
-* [The benefits of waking early - part 2](http://blog.awolski.com/the-benefits-of-waking-early-part-2/)
-* [How I keep up with the rapid pace of tech](http://blog.awolski.com/how-i-keep-up-with-the-rapid-pace-of-tech/)
-* [Mockito Javadoc. The best use of Javadoc, ever](http://blog.awolski.com/mockito-javadocs-the-best-use-of-javadoc-ever/)
+* [Then benefits of waking early](http://awolski.com/the-benefits-of-waking-early/)
+* [The benefits of waking early - part 2](http://awolski.com/the-benefits-of-waking-early-part-2/)
+* [How I keep up with the rapid pace of tech](http://awolski.com/how-i-keep-up-with-the-rapid-pace-of-tech/)
+* [Mockito Javadoc. The best use of Javadoc, ever](http://awolski.com/mockito-javadocs-the-best-use-of-javadoc-ever/)
 
 **May**
 
-* [Blogging with Google voice to text](http://blog.awolski.com/blogging-with-google-voice-to-text/)
-* [Connecting to MySQL on Vagrant guest on Windows](http://blog.awolski.com/connecting-to-mysql-on-vagrant-guest-on-windows/)
-* [Considering Microservices](http://blog.awolski.com/considering-microservices/)
-* [Using Docker to spin up databases for development](http://blog.awolski.com/using-docker-to-spin-up-databases-for-development/)
+* [Blogging with Google voice to text](http://awolski.com/blogging-with-google-voice-to-text/)
+* [Connecting to MySQL on Vagrant guest on Windows](http://awolski.com/connecting-to-mysql-on-vagrant-guest-on-windows/)
+* [Considering Microservices](http://awolski.com/considering-microservices/)
+* [Using Docker to spin up databases for development](http://awolski.com/using-docker-to-spin-up-databases-for-development/)
 
 **June**
 
-* [Java Stormpath SDK behind a Proxy using Shiro JndiObjectFactory](http://blog.awolski.com/stormpath-java-sdk-behind-a-proxy-using-shiro-jndiobjectfactory/)
+* [Java Stormpath SDK behind a Proxy using Shiro JndiObjectFactory](http://awolski.com/stormpath-java-sdk-behind-a-proxy-using-shiro-jndiobjectfactory/)
 
 **August**
 
-* [AWS access control policies and IAM best practices ](http://blog.awolski.com/aws-access-control-policies-and-iam-best-practices/)
-* [Great freelance advice from Roberto Cortez at Devoxx UK 2015](http://blog.awolski.com/great-freelance-advice-from-roberto-cortez-at-devoxx-uk-2015/)
+* [AWS access control policies and IAM best practices ](http://awolski.com/aws-access-control-policies-and-iam-best-practices/)
+* [Great freelance advice from Roberto Cortez at Devoxx UK 2015](http://awolski.com/great-freelance-advice-from-roberto-cortez-at-devoxx-uk-2015/)
 
 **September**
 
-* [Scratching the surface of GPG.](http://blog.awolski.com/scratching-the-surface-of-gpg/)
-* [Signing in to EC2 instance with an AWS generated key pair](http://blog.awolski.com/signing-in-to-ec2-instance-with-an-aws-generated-key-pair/)
-* [Refactoring with Groovy and runtime method invocation](http://blog.awolski.com/refactoring-with-groovy-and-runtime-method-invocation/)
-* [Problems building a CentOS AWS AMI with Packer](http://blog.awolski.com/building-an-aws-ami-with-packer/)
+* [Scratching the surface of GPG.](http://awolski.com/scratching-the-surface-of-gpg/)
+* [Signing in to EC2 instance with an AWS generated key pair](http://awolski.com/signing-in-to-ec2-instance-with-an-aws-generated-key-pair/)
+* [Refactoring with Groovy and runtime method invocation](http://awolski.com/refactoring-with-groovy-and-runtime-method-invocation/)
+* [Problems building a CentOS AWS AMI with Packer](http://awolski.com/building-an-aws-ami-with-packer/)
 
 **November**
 
-* [Random 'Permission denied (publickey)' error in Travis](http://blog.awolski.com/sudden-permission-denied-publickey-error-in-travis/)
-* [Making Time Blocking Work with Google Calendar](http://blog.awolski.com/making-time-blocking-work-with-google-calendar/)
-* [Starting and using a service during Docker build](http://blog.awolski.com/starting-services-during-docker-build/)
-* [Fixing node-gyp make failed on centos in Docker](http://blog.awolski.com/fixing-node-gyp-make-failed-on-centos-in-docker/)
-* [Upgrade Docker on Travis CI](http://blog.awolski.com/upgrade-docker-on-travis-ci/)  
+* [Random 'Permission denied (publickey)' error in Travis](http://awolski.com/sudden-permission-denied-publickey-error-in-travis/)
+* [Making Time Blocking Work with Google Calendar](http://awolski.com/making-time-blocking-work-with-google-calendar/)
+* [Starting and using a service during Docker build](http://awolski.com/starting-services-during-docker-build/)
+* [Fixing node-gyp make failed on centos in Docker](http://awolski.com/fixing-node-gyp-make-failed-on-centos-in-docker/)
+* [Upgrade Docker on Travis CI](http://awolski.com/upgrade-docker-on-travis-ci/)  
 
 In 2016 I really want to knock it out of the park in a writing sense. I've set myself a goal to write everyday. In effect I do this, considering the daily development logs I keep, it's just a matter of pulling the interesting, important, helpful parts out of those daily logs and crafting them into something that is shareable. And I've got so many other things that I want to share over and above the technical stuff: my progress on a fitness front (which I'm really nailing at the moment), the reading I'm doing, minimalism and stoicism... 
 

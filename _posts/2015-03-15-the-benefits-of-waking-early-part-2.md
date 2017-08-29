@@ -3,7 +3,7 @@ layout: post
 title:  "The benefits of waking early - part 2"
 ---
 
-Last week I wrote about [the benefits of waking early](http://blog.awolski.com/the-benefits-of-waking-early/) in the wake of my recent switch to pre-5:30am starts each day (pardon the pun).
+Last week I wrote about [the benefits of waking early](http://awolski.com/the-benefits-of-waking-early/) in the wake of my recent switch to pre-5:30am starts each day (pardon the pun).
 
 The day after I published my post, my old Crossfit box owner Pete Rankine echoed similar (and more elaborate) sentiments on [The Boat Shed](http://www.theboatshedfitness.co.uk/)'s WOD [blog](http://www.theboatshedfitness.co.uk/2015/03/19/friday-20-03-2015/). Hearing Pete's thoughts really reinforced my own goals, and my drive to continue the habit of waking early.
 

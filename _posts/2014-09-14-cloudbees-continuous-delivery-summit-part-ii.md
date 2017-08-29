@@ -3,7 +3,7 @@ layout: post
 title:  "Cloudbees continuous delivery summit part II"
 ---
 
-Today I went to the [Accelerating Innovation with Continuous Delivery summit](http://blog.awolski.com/cloudbees-cd-summit/) at [The Brewery](http://www.thebrewery.co.uk/) in London, a free one day event hosted by [CloudBees](http://www.cloudbees.com/). It was a really well organised event with some great speakers, and I’ve got Moleskin full of notes and ideas to take back to the office and try and somehow integrate into our development/delivery processes.
+Today I went to the [Accelerating Innovation with Continuous Delivery summit](http://awolski.com/cloudbees-cd-summit/) at [The Brewery](http://www.thebrewery.co.uk/) in London, a free one day event hosted by [CloudBees](http://www.cloudbees.com/). It was a really well organised event with some great speakers, and I’ve got Moleskin full of notes and ideas to take back to the office and try and somehow integrate into our development/delivery processes.
 
 One of the highlights for me was [Andrew Phillips](http://blog.xebialabs.com/author/aphillips/)’ — VP of Products at XebiaLabs — talk on the Three Pillars of Continuous Delivery: Culture, Tooling & Practices. He made a valid point that it’s a reality that “10 kids with some financing and a bit of software can put you out of business.” And It’s so true. Big enterprises that are slow to adopt these new trends, tools and practices which enable fast, robust software delivery — providing real value to customers when they need it — are at real risk of being left behind. This was a theme was echoed by other speakers throughout the day.
 
