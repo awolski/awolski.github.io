@@ -7,27 +7,9 @@ I'm in the early stages of working with (awesome) tools like Packer and [Terrafo
 
 When getting started with any new technology it's good to work your way through the getting started guide, which is what I did on this occasion. I copied the `example.json` example from Packer's [getting started guide](https://www.packer.io/intro/getting-started/build-image.html) and changed the instance type from `t1.micro` to `t2.micro` and the ami to an `eu-west-1` CentOS 6 ami. So here is what I started with:
 
-```json
-{
-  "variables": {
-  "aws_access_key": "",
-  "aws_secret_key": ""
-},
-  "builders": [{
-    "type": "amazon-ebs",
-    "access_key": "{{user `aws_access_key`}}",
-    "secret_key": "{{user `aws_secret_key`}}",
-    "region": "eu-west-1",
-    "source_ami": "ami-30ff5c47",
-    "instance_type": "t2.micro",
-    "ssh_username": "root",
-    "ami_name": "CentOS 6 x86_64",
-    "associate_public_ip_address": true
-  }]
-}
-```
+<script src="https://gist.github.com/awolski/8fd8798070fa69f42ff6711432bc294d.js"></script>
 
-Running 
+Running
 ```
 packer validate example.json
 ```
@@ -85,23 +67,4 @@ So I dug a little deeper into Packer's [aws-ebs backed documentation](https://ww
 
 So the final (working) packer template is listed below (changes I've made from the example in the documentation are highlighted):
 
-```json
-{
-  "variables": {
-  "aws_access_key": "",
-  "aws_secret_key": ""
-},
-  "builders": [{
-  "type": "amazon-ebs",
-  "access_key": "{{user `aws_access_key`}}",
-  "secret_key": "{{user `aws_secret_key`}}",
-  "region": "eu-west-1",
-  "source_ami": "<b>ami-30ff5c47",
-  "instance_type": "<b>t2.micro",
-  "ssh_username": "root",
-  "ami_name": "CentOS 6 x86_64",
-  "vpc_id": "vpc-62086907",
-  "subnet_id": "subnet-01451564",
-  "associate_public_ip_address": true
-}]
-```
+<script src="https://gist.github.com/awolski/8fd8798070fa69f42ff6711432bc294d.js"></script>

@@ -1,15 +1,15 @@
 ---
-layout: default
+layout: page
+title: Archives
+permalink: /archives/
 ---
 
 <div class="archives">
 
-  <h1 class="page-heading">Archives</h1>
-
   <ul class="post-list">
     {% for post in site.posts %}
     <li>
-      <span class="post-meta">{{ post.date | date: "%a %d %b %Y" }} </span> -
+      <span class="post-meta">{{ post.date | date: "%a %d %b %Y" }} </span>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </li>
     {% endfor %}

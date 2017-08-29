@@ -1,5 +1,34 @@
+.site-header {
+  border: none;
+}
+
+.site-header .wrapper {
+  text-align: center;
+}
+
+.site-header .wrapper a {
+  color: #828282;
+  letter-spacing: .2em;
+  text-transform: lowercase;
+  width: 100%;
+}
+
 .post-title {
   font-size: 32px;
+  text-align: center;
+}
+
+.archives .post-list .post-meta {
+  font-family: monospace;
+}
+
+.post-navigation {
+  font-size: .9em;
+  margin-top: 1em;
+}
+
+.post-navigation span {
+  display: block;
 }
 
 .archives .post-list  a {
@@ -12,5 +41,25 @@
 }
 
 a h1 {
-  color: #000;
+  color: #333;
+}
+
+.comments {
+  margin-top: 5em;
+}
+
+.footer ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer li {
+  display: inline;
+  margin-right: 30px;
+  text-transform: lowercase;
+}
+
+.footer a, .footer a:hover {
+  color: #828282;
+  text-decoration: none;
 }
