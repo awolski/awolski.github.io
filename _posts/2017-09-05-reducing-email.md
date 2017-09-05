@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Reducing email"
+---
+
 > This is your life and it's ending a minute at a time - Fight Club
 
 This quote from Fight Club is an idea I take seriously. It may sound morbid, but it helps me to cull the trivial and shallow from my life, creating more time to focus on what I truly value. Lately, email has been an annoying time thief.
