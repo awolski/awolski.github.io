@@ -25,7 +25,7 @@ If the message is from a source that can't be removed (an account I can't delete
 
 There are some notifications that can't be switched off entirely, e.g. payment notifications, terms of service updates, delivery notifications, etc. For these I add the source address to a filter that marks them as read, archives them, and applies the label 'Filtered'. 
 
-![Gmail Filtered Filter](assets/img/2017-09-01-email-notification-filter.png)
+![Gmail Filtered Filter](/assets/img/2017-09-01-email-notification-filter.png)
 
 To ensure don't miss anything important, I created a weekly calender event with a link to a Gmail search in the event's description. The link below opens Gmail with messages in the 'Filtered' label that arrived within the last seven days.
 
