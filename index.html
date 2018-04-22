@@ -2,28 +2,35 @@
 layout: default
 ---
 
-<div class="home">
+<section id="aboutme">
+  <h2>About me</h2>
+  <p>See my <a href="{{ "/about" | prepend: site.baseurl }}">about page</a> 
 
-  {% assign post = site.posts.first %}
+  <h2>What am I doing now?</h2>
+  <p>See my <a href="{{ "/now" | prepend: site.baseurl }}">now page</a> 
+</section>
 
-  <div class="recent-post">
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<section id="newestarticles">
+  <h2>Newest articles<small><a href="{{ "/archives" | prepend: site.baseurl }}">see all</a></small></h2>
+  
+  <ul class="post-list">
+    {% for post in site.posts limit:5 %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 
-      <header class="post-header">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <h1 class="post-title" itemprop="name headline">{{ post.title }}</h1>
-        </a>
-
-      </header>
-
-      <div class="post-content" itemprop="articleBody">
-        {{ post.content }}
-      </div>
-
-    </article>
-  </div>
-
-  <p class="archives"><a href="{{ "/archives" | prepend: site.baseurl }}">See all posts</a></p>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</section>
 
-</div>
+<section id="search">
+  <h2>Search</h2> 
+  <form action="https://duckduckgo.com/" method="get">
+	<label for="q">Search awolski.com: </label>
+	<input type="text" name="q" value="">
+	<input type="hidden" name="sites" value="awolski.com">
+	<input type="hidden" name="ia" value="web">
+	<input type="submit" value="search">
+  </form>
+</section>
