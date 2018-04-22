@@ -8,6 +8,6 @@ Right now I'm trying to automate as much as possible, working as a DevOps engine
 
 I'm in training for my first 70.3 in September.
 
-I'm also taking a year off alcohol. I started on 4th January 2018. So far I'd have to say my life is significantly better without alcohol than with it. 
+I'm also taking a year off alcohol. I started on 4th January 2018. My life is significantly better without alcohol than with it. 
 
-And as always, I try and read, and think, as much as possible.
+And as always, I try and read, think, and question, as much as possible.
