@@ -17,3 +17,6 @@ permalink: /:slug/
 
 # Build settings
 markdown: kramdown
+
+collections:
+- books 
