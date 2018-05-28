@@ -27,7 +27,7 @@ Your information is used only to provider certain functionality within the syste
 
 ## How I share information
 
-I don't share your information with anyone.
+Your information is shared with the cloud provider, AWS, in secure virtual private cloud (VPC). I don't share your information with anyone else.
 
 ## Legal basis for processing personal information
 
