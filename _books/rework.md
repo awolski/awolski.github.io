@@ -1,7 +1,6 @@
 ---
 layout: page
 title: ReWork - Jason Fried and David Heinemeier Hansson
-permalink: /book/rework
 ---
 
 ![ReWork](/assets/img/book/rework.jpg)

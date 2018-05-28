@@ -19,4 +19,5 @@ permalink: /:slug/
 markdown: kramdown
 
 collections:
-- books 
+  books:
+    output: true
