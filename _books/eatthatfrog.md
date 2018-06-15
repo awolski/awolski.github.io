@@ -3,7 +3,7 @@ layout: page
 title: Eat That Frog! - Brian Tracy
 ---
 
-A good book which emphasises the power of tackling your most important tasks and projects first, and 
+A good book which emphasises the power of tackling your most important tasks and projects first, and focusing single mindedly on one task or project at a time to achive ultimate success in life. Eat That Frog! is not a long read, but did a good job of emphasising good habits I've read about in other books.
 
 ## My notes
 
