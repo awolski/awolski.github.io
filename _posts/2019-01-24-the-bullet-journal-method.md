@@ -4,18 +4,18 @@ title:  "The Bullet Journal Method"
 permalink: /bujo
 ---
 
-I've recently picked up Bullet Journaling in an(other) attempt to organise my life
+Starting a Bullet Journal in 2019 has been the single most impactful thing I've done this year. It has transformed the way I organise my life and forced me to spend more time offline. It has integrated journaling, from which I already derive greate value, with the power of a simple organisational system. I feel more in control, less overwhelmed, and clearer than I ever have. It is still early days, but I get the feeling my Bullet Journal is here to stay.
 
 ### My problem with digital
 
-Digital organisational tools don't work because of their very digital nature: they're online, which means distraction. Temptation to check email, blogs, Hacker News, actual news. The moment I've cleared my email inbox or digital task list my thought process goes someting like this: 
+Digital organisational tools don't work because of their very digital nature: they're online, which means distraction. Temptation to check email, blogs, Hacker News, actual news. The moment I clear my email inbox or digital task list my thought process goes someting like this: 
 
 > _"It won't hurt if you spend 5 minutes scanning the first page or two of Hacker News! What's the big deal? Live a little."_
 
-My pleasure driven brain kicks in, and in that moment it's in complete control. Like when I've got my wife's Lindt chocolate on my mind; there's no way that chocolate is not going to be eaten. My rational, pre-planning brain is nowhere to be seen. In my online example, five minutes turns into thirty down rabbit holes chasing new ideas and rubbish news. I end up with more on the shelves of my cluttered brain than when I started.
+My pleasure driven brain kicks in, and in that moment it's in complete control. Like when I've got my wife's Lindt chocolate on my mind; there's no way that chocolate is not going to be eaten. My rational, pre-planning brain is nowhere to be seen. In my online example, 5 minutes turns into 30 down rabbit holes chasing new ideas and rubbish news. I end up with more on the shelves of my cluttered brain than when I started.
 
 
-### Why I like it 
+### Simplicity and reflection 
 
 What I like most about the Bullet Journal method is its simplicity. So many digital organsiation tools have come and gone from my life because of their complexity or rigidness. With the Bullet Journal, all you need is a pen and a notebook. Once you understand the basic signifiers, collections, and migrations, you're good to go. Simple things are also more likely to stand the test of time.
 
