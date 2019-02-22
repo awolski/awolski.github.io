@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: book
 title: Eat That Frog! - Brian Tracy
 ---
 
