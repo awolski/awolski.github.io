@@ -12,7 +12,7 @@ The aggregation of marginal gains... the philosophy of searching for a tiny marg
 
 Success is the product of daily habits - not once-in-a-lifetime transformations.
 
-Your outcomes are a lagging mesure of your habits. Your net worth is a lagging measure of your financial habits. Your weight is a lagging measure of your eating habits. Your knowledge is a lagging measure of your learning habits. Your clutter is a lagging measure of your cleaning habits. You get what you repeat.
+Your outcomes are a lagging measure of your habits. Your net worth is a lagging measure of your financial habits. Your weight is a lagging measure of your eating habits. Your knowledge is a lagging measure of your learning habits. Your clutter is a lagging measure of your cleaning habits. You get what you repeat.
 
 Your habits need to perist long enough to break through this plateau (the _Plateau of Latent Potential_).
 
@@ -135,7 +135,7 @@ The habit stacking + temptation bundling formula is: 1. After [CURRENT HABIT], I
 
 The Polgar sisters: world champion chess prodigies.
 
-"The customs and practices of life in society sweep us along." Michel do Montaigne.
+"The customs and practices of life in society sweep us along." Michel de Montaigne.
 
 We soak up the qualities and practices of those around us... One of the most effective things you can do to build better habits is to join a culture where your desired behaviour is the normal behaviour.
 
@@ -263,6 +263,6 @@ In the words of investor Paul Graham, "keep your identity small." The more you l
 
 The holy grail of habit change is not a single 1 percent improvement, but a thousand of them. It's a bunch of atomic habits stacking up, each one a fundamental unit of the overall system.
 
-Success is not a goal to reach or a finish line to cross. It is a system to improve, and endless process to refine. "If you're having trouble changing your habits, the problem isn't you. The problem is your system. Bad habits repeat themselves again and again not because you don't want to change, but because you have the wrong system for change."
+Success is not a goal to reach or a finish line to cross. It is a system to improve, an endless process to refine. "If you're having trouble changing your habits, the problem isn't you. The problem is your system. Bad habits repeat themselves again and again not because you don't want to change, but because you have the wrong system for change."
 
 The secret to getting results that last is to never stop making improvements. It's remarkable what you can build if you just don't stop. It's remarkable the business you can build if you don't stop working. It's remarkable the body you can build if you don't stop training. It's remarkable the knowledge you can build if you don't stop learning. It's remarkable the fortune you can build if you don't stop saving. It's remarkable the friendships you can build if you don't stop caring. **Small habits don't add up. They compound.**
