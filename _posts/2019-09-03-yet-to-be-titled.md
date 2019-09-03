@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Regret"
+permalink: /regret
+---
+
+In my early thirties I watched a [TED talk](https://www.ted.com/talks/stefan_sagmeister_the_power_of_time_off) about the power of time off in which the speaker, Stefan Sagmeister, presents an infographic showing a typical, modern-day working life: 25 years for learning, 40 years for working, and 15 years for retirement.
+
+![Typical working life](/assets/img/2019-09-03-typical-working-life.png)
+
+He then cuts 5 years from the retirement section and intersperses them throughout the working section.
+
+![Working life rethought](/assets/img/2019-09-03-working-life-rethought.png)
+
+The audience laughs and applauds; it seems they think the idea is as novel as I do. Such a simple idea, but for me, profound.
+
+The idea stayed with me, and in the years that followed I dreamed of taking my first sabbatical. I was never sure it would be possible financially, or whether I would have the guts follow through, so for a long time it remained only a dream. But I continued to speak about the TED Talk with friends and family and in doing so fanned the flames of the dream. I worked hard, caught a few lucky breaks, and in my late thirties, when the possibility of a sabbatical somehow seemed more realistic, I tentatively began telling people about my 'plans'. One friend commented "If it were anyone else I wouldn't believe them, but I reckon you will." I still wasn't sure.
+
+Four months before my 40th birthday —  my tentative sabbatical start date — I was offered a six month contract extension, and thus, a choice: to continue with the status quo, the safe and common path, or take a leap of faith and have a mini-retirement. On the surface it seems like an easy decision; a year off to do what you want... who wouldn't want that? But the decision was far from easy. Despite my intuition telling me I was being logical, I was filled with doubt and questioned myself relentlessly: "If this is so sane, why isn't anyone else taking time off? Why do people act with such surprise when I mention it? Surely, there must be something I'm missing?"
+ 
+In [Regrets of the Dying](https://bronnieware.com/blog/regrets-of-the-dying/), Bronnie Ware, an Australian nurse and author who spent years working in palliative care with patients in the last weeks of their lives, recorded her patients' top five regrets. The number one regret was _**"I wish I had the courage to live a life true to myself, not the life others expected of me"**_. 
+
+> When people realise that their life is almost over and look back clearly on it, it is easy to see how many dreams have gone unfulfilled. Most people had not honoured even a half of their dreams and had to die knowing that it was due to choices they had made, or not made.
+
+Need I look further than the wisdom of those looking back on their lives as their own is about to end? When you reflect on your own mortality, other people's opinions and expectations fade into insignificance. Doing what feels right, being honest with yourself and following your dreams, according to the dying, is what matters.
+
+It was sentiments like these that compelled me to request the contract be shortened, and led me to starting my first mini-retirement on my 40th birthday. I'm so glad I have. Lots has happened since that day, but in particular my relationship with my kids has blossomed; we now have slow, stress-free mornings together before school, I get to pick them up every day after school, and we've just spent the seven weeks of holidays playing and getting to know each other better. I'm reading books that have already had a profound impact on my life, books that I don't have time to read when I'm stuck in the rat race. I'm learning how to live better, different. I'm enjoying it so much that I'm strategising on how to continue it indefinitely. 
+
+Sometimes it's difficult to listen to and act on our intuition, particularly when it is in conflict with what those around us do, or what they expect of us. Change is difficult. Separating yourself from the crowd is difficult. Being true to yourself in the face of criticism and ridicule is difficult. But I think this is what those dying people meant in Bronnie Ware's [Regrets of the Dying](https://bronnieware.com/blog/regrets-of-the-dying/): these are the decisions and actions we must take, the courage we must show, if we want to avoid looking back on our lives with too much regret.
