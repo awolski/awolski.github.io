@@ -2,40 +2,9 @@
 layout: default
 ---
 
-<section id="aboutme">
-  <h2>About me</h2>
-  <p>See my <a href="{{ "/about" | prepend: site.baseurl }}">about page</a> 
+<section id="intro">
+  <p>I'm Tony Wolski. This is <a href="{{ "/now" | prepend: site.baseurl }}">what I'm doing now</a>. I keep <a href="{{ "/books" | prepend: site.baseurl }}">book notes</a>. Recent posts are below, or browse <a href="{{ "/archives" | prepend: site.baseurl }}">all articles</a>. Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p> 
 
-  <h2>What am I doing now?</h2>
-  <p>See my <a href="{{ "/now" | prepend: site.baseurl }}">now page</a> 
-</section>
-
-<section id="newestarticles">
-  <h2>Newest articles<small><a href="{{ "/archives" | prepend: site.baseurl }}">see all</a></small></h2>
-  
-  <ul class="post-list">
-    {% for post in site.posts limit:5 %}
-    <li>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</section>
-
-<section>
-  <h2>Book notes</h2>
-  <p>I love to read. I keep <a href="{{ "/books" | prepend: site.baseurl }}">book notes</a>.</p>
-<section>
-
-<section id="privacy">
-  <h2>Privacy</h2>
-  <p>I run a conveyancing quote system for a law firm in Cardiff, so I have a <a href="{{ "/privacy" | prepend: site.baseurl }}">privacy policy</a> with respect to that.
-</section>
-
-<section id="search">
-  <h2>Search</h2> 
   <form action="https://duckduckgo.com/" method="get">
 	<label for="q">Search awolski.com: </label>
 	<input type="text" name="q" value="">
@@ -43,4 +12,20 @@ layout: default
 	<input type="hidden" name="ia" value="web">
 	<input type="submit" value="search">
   </form>
+
+</section>
+
+<section id="newestarticles">
+  <ul style="margin: 2em 0 0 0">
+    {% for post in site.posts limit:5 %}
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <div class="post-content" itemprop="articleBody">
+        {{ post.content }}
+      </div>
+    </article>
+    {% endfor %}
+  </ul>
 </section>
