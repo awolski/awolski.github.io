@@ -6,9 +6,12 @@ permalink: /generalisation-specialisation-financial-independence
 
 I've been reading about financial independence a lot lately. I like to think of myself as  _temporarily_ financially independent —  I'm 3.5 months into a sabbatical and have enough money saved to not have to worry about working for at least another year. One of the better books I've read on the subject of FI is [_Early Retirement Extreme_](https://www.amazon.co.uk/Early-Retirement-Extreme-Philosophical-Independence/dp/145360121X/). It's a gold mine of strategies, tactics and principles to help you achieve FI, and personally, forced me to re-think my place in the world and how I want to spend my time in it.
 
+
 An important ideal brought up in ERE is that of the Renaissance man; one who strives to develop his abilities to their full extent in many areas of life. A Renaissance man, Fisker explains, obtains knowledge in a wide range of subjects and excels at many different things. He is a polymath, a jack-of-all-trades. **_"The Renaissance man is capable of many different things and doesn't restrict himself to vocational skills. He does his own taxes and researches his own investments. He can fix a computer or a broken appliance. He knows how to drive and fix a car, but he has enough time and athletic ability to ride his bicycle 20 miles instead, or run five miles to get groceries. He can play an instrument, dance, paint, or write creatively. He can recreate interesting meals from scratch rather than recipe."_** One of the many advantages of becoming a Renaissance man, Fisker explains, is that you become less reliant on outsourcing your life and operations, which keeps you in paid employment (a Salary man). 
 
 In other words, to achieve financial independence it is desirable to be a **generalist**.
+
+<!--more-->
 
 I was really taken with the idea and quickly decided it was in my best interests to become a Renaissance man. I attacked DIY with vigour, doing things I normally would have outsourced, like plumbing, bike repair, and structural work on my garage. Small steps, but I was on my way. And it is indeed satisfying to nut something out on your own and work with your hands, rather than fall back to the default of "I can't do that, better get a professional in." In my mind it was only a matter of time before I would be found tending a self-sustaining garden outside my off-the-grid house in the woods, built with my own bare hands.
 

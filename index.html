@@ -23,7 +23,8 @@ layout: default
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       <div class="post-content" itemprop="articleBody">
-        {{ post.content }}
+        {{ post.excerpt }}
+        <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
       </div>
     </article>
     {% endfor %}

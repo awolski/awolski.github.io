@@ -14,6 +14,8 @@ As fate would have it I had also started reading ERE in the days prior. On page 
 
 ![ERE marginalia](/assets/img/2019-09-06-ere-marginalia.jpg)
 
+<!--more-->
+
 Sliding door moments, eh? 
 
 I'm not criticising extensions or spending money to improve one's living situation. I'm merely pointing out that on this occasion, with some help of someone else's hard-earned wisdom, I realised I was about to make a huge mistake. Had I really thought this through? Was a few extra square metres of open plan kitchen and a slightly bigger garage a reasonable trade-off for several more years of 9-5, of my finite time? It was a marginal increase in space (functionality) I was going to spend tens of thousands on. Suddenly it didn't seem like such a great deal.

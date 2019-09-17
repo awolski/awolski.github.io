@@ -10,6 +10,8 @@ I keep it simple and commit to a maximum of five habits each month, but rarely m
 
 ![Habit Tracking](/assets/img/2019-09-13-habit-tracking.png)
 
+<!--more-->
+
 Exercise is a mainstay habit this year. I'm following Atomic Habits' advice and aiming for consistency. I use small routines that last for no more than 20 minutes and don't require any (minimal) equipment.
 
 1. Four rounds of max pull ups, interspersed with max hanging leg raises

@@ -10,6 +10,8 @@ What struck me most about the post was how evolved my own phone reduction habits
 
 With this in mind I thought I would follow up with my own strategies to reduce the time I spend on my phone. Some of these overlap with Ryan Holiday's strategies, some have spawned from Cal Newport's blog and book [Digital Minimalism](https://www.amazon.co.uk/Digital-Minimalism-Living-Better-Technology/dp/0241341132/), while others I've devised on my own by simply becoming more aware of my behaviour. I have much healthier, productive relationship with my phone as a result.
 
+<!--more-->
+
 ### Turn off all alerts
 
 This is crucial to avoid interruptions, which destroy focus and your ability to be present. How many times have you picked up your phone to do something specific, seen an alert/notification, clicked on it, ended up down some rabbit hole, and when you finally surface you've completely forgotten what you were doing in the first place? I turn off all notifications except messages, phone calls and calendar events. Even those are muted and hidden when I'm in Do Not Disturb mode, which is most of the time.
