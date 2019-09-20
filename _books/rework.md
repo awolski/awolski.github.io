@@ -5,6 +5,8 @@ title: ReWork - Jason Fried and David Heinemeier Hansson
 
 I've read this book twice now. I love books that offer 'uncommon sense' approaches; alternative ways to look at and solve problems. This is one of them. In ReWork, Jason Fried and DHH debunk the common view that you have to grow and get big to be successful. You don't. You can stay small and build the business you want, the way you want, and ignore the 'common nonsense'. The thoughts in this book have shown me an alternative blueprint for creating a business. They're thoughts that I'll revisit again and again in the future. I highly recommend this book, and many of their blog posts on [Signal v. Noise](https://m.signalvnoise.com/)
 
+<!--more-->
+
 ## My notes
 
 Start referring to your business plans as business guesses, your financial plans as financial guesses, and your strategic plans as strategic guesses. Now you can stop worrying about htem as much. Thye just aren't worth the stress.

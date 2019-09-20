@@ -5,6 +5,8 @@ title: The Bullet Journal Method - Ryder Carrol
 
 What a fantastic resource and book! I've been journaling for years, and I get immense value from observing my thoughts, writing about what's bothering me or a problem I'm stuck on. But there's always been a disconnect between what I discover through journaling and the actions that arise from it. My organisational methods have gone through so many iterations and digital tools over the years, each promising so much but ultimately failing in one way or another, forcing me to abandon them. This book and method provide a compelling answer to my issues with digital organisation. The Bullet Journal Method not only outlines the process of Bullet Journaling, but explains why it is such an effective method. Disconnecting from online distractions and information overload, giving yourself time and space to think, reflect and plan. The Bullet Journal method has completely changed my life.   
 
+<!--more-->
+
 ## My notes
 
 Let us postpone nothing. Let us balance life's account every day... One who daily puts the finishing touches to his life is never in want of time. — Seneca, Moral Letters to Lucilius

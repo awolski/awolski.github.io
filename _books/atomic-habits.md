@@ -5,6 +5,7 @@ title: Atomic Habits - James Clear
 
 Atomic Habits is a must read for anyone struggling to maintain good habits or break bad ones. It reinforces the idea that success comes from repetition. You have to show up day-in, day-out, regardless of whether you feel like it or not. The book drives this point home and outlines practical ways to make it more likely you do so, such as environment design and habit stacking. I took so many notes and gained so much from this read. 
 
+<!--more-->
 
 ## My notes
 

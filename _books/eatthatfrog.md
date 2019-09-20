@@ -5,6 +5,8 @@ title: Eat That Frog! - Brian Tracy
 
 A good book which emphasises the power of tackling your most important tasks and projects first, and focusing single mindedly on one task or project at a time to achive ultimate success in life. Eat That Frog! is not a long read, but did a good job of emphasising good habits I've read about in other books.
 
+<!--more-->
+
 ## My notes
 
 Throughout my career, I have discovered and rediscovered a simple truth. The ability to concentrate single-mindedly on your most important task, to do it well and to finish it completely, is the key to great success, achievement, respect, status, and happiness in life.

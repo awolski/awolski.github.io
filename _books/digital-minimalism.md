@@ -5,6 +5,7 @@ title: Digital Minimalism - Cal Newport
 
 Another timely and compelling piece by Cal Newport. There's a reason the author is one of only two writers' blogs to which I'm subscribed. Lots of great research into how our inability to disconnect affects our mental health, our ability to concentrate, and the connection we feel to the community around us.  
 
+<!--more-->
 
 ## My notes
 

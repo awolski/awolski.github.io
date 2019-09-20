@@ -5,6 +5,8 @@ title: Your Money or Your Life - Vicki Robin & Joe Dominguez
 
 I'm working my way through the steps in this book, so will withhold my thoughts until I've completed them. However this is one of my favourites, enough so that I've read it twice. It lays out a program to re-evaluate our relationship with money, how we acquire it,  how we spend it, and how we think about it. The program requires a significant investment in time and energy, but promises so much. Watch this space.
 
+<!--more-->
+
 ## My notes
 
 Repeat after me. To have savings is to be free. Savings means freedom from debt. Money in the bank means freedom to leave your job if the boss is intolerable or the benefits have just been yanked. And if you lose your job, having savings is the freedom to keep your house and car because you can cover your payments — if you have any to make in the first place.
