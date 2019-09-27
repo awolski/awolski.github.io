@@ -3,6 +3,7 @@ layout: default
 ---
 
 <section id="intro">
+  {% if paginator.page == 1 %} 
   <p>I'm Tony Wolski. This is <a href="{{ "/now" | prepend: site.baseurl }}">what I'm doing now</a>. I keep <a href="{{ "/books" | prepend: site.baseurl }}">book notes</a>. Recent posts are below, or browse <a href="{{ "/archives" | prepend: site.baseurl }}">all articles</a>. Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p> 
 
   <form action="https://duckduckgo.com/" method="get">
@@ -13,11 +14,13 @@ layout: default
 	<input type="submit" value="search">
   </form>
 
+  {% endif %}
+
 </section>
 
 <section id="newestarticles">
   <ul style="margin: 2em 0 0 0">
-    {% for post in site.posts limit:5 %}
+    {% for post in paginator.posts %}
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -29,4 +32,24 @@ layout: default
     </article>
     {% endfor %}
   </ul>
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">
+        Previous
+      </a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
+
 </section>
