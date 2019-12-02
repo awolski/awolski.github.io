@@ -23,3 +23,5 @@ markdown: kramdown
 collections:
   books:
     output: true
+  pages:
+    output: true
