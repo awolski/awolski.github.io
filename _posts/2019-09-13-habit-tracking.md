@@ -18,7 +18,7 @@ Exercise is a mainstay habit this year. I'm following Atomic Habits' advice and 
 2. Four rounds of max push ups, interspersed with max crunches
 3. Four rounds of pistol squats, interspersed with a timed static bridge hold
 4. Running, usually 5-10km
-5. Yoga, usually 20 mintues
+5. Yoga, usually 20 minutes
 
 Taking into account illness and forced days out I hit an 80% strike rate, completing 197 workous of a possible 244 days. This is a vast improvement on any other time in my life. I've always struggled to maintain any sort of consistency, finding myself in the motivated-then-can't-be- bothered cycle many people do.
 
