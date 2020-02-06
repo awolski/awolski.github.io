@@ -46,6 +46,8 @@ I **read** three books:
 
 [Steal Like an Artist](https://www.amazon.co.uk/Steal-Like-Artist-Austin-Kleon/dp/0761169253/), by Austin Kleon. Loved this book. Short but full of great advice on how to be creative and produce great work.
 
+![January reading](/assets/img/january-2020-books.jpg)
+
 As for **writing**, I'm a bit disappointed because I only wrote one blog post: [2019-reflections-health](/2019-relfections-health). I'm still planning on closing out my 2019 reflection posts... hopefully before we hit 2021. 
 
 In terms of **coding**, I pushed out a feature a client requested to track estate agent referrals. In my opinion it was a reasonably clean and extensible implementation in which I stored the configuration for new fields in JSON in the database. I foresee more estate agent referrals so I'll only have to update the configuration in order to satisfy those new requirements; no additional coding. I also created a new Terraform module to deploy the (Docker) service image using AWS Fargate instead of EC2 instance backed ECS. And finally I plumbed in Redis as a persistent session store, and started using AWS Cloud Map and Service Discovery for Fargate containers to be able to talk to each other. These seem like really simple, straightforward services to use.
