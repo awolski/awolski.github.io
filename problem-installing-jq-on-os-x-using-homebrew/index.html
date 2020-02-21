@@ -1,0 +1,56 @@
+<!doctype html><html lang=en-gb><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content="no-referrer"><link rel=stylesheet type=text/css href=/style.css><title>Problem installing jq on OS X using Homebrew | Tony Wolski</title><link rel=canonical href=https://awolski.com/problem-installing-jq-on-os-x-using-homebrew/></head><body><section id=masthead><h1><a href=/ title="Tony Wolski">Tony Wolski</a></h1><nav><ul><li><a href=/contact title=Contact>Contact</a></li></ul></nav></section><div id=content><article class=post><header><h1>Problem installing jq on OS X using Homebrew</h1><small>2016-01-16</small></header><p>This is just a quick post for reference as I had issues installing <a href=https://stedolan.github.io/jq/>jq</a> on my machine this evening.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ brew install jq
+<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Installing dependencies <span style=color:#66d9ef>for</span> jq: oniguruma
+<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Installing jq dependency: oniguruma
+<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Downloading https://homebrew.bintray.com/bottles/oniguruma-5.9.6.el_capitan.bottle.1.tar.gz
+<span style=color:#75715e>######################################################################## 100.0%</span>
+<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Pouring oniguruma-5.9.6.el_capitan.bottle.1.tar.gz
+Error: The <span style=color:#e6db74>`</span>brew link<span style=color:#e6db74>`</span> step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink include/oniggnu.h
+/usr/local/include is not writable.
+
+You can try again using:
+  brew link oniguruma
+<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Summary
+🍺  /usr/local/Cellar/oniguruma/5.9.6: <span style=color:#ae81ff>12</span> files, 1M
+<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Installing jq
+<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Downloading https://homebrew.bintray.com/bottles/jq-1.5.el_capitan.bottle.1.tar.gz
+<span style=color:#75715e>######################################################################## 100.0%</span>
+<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Pouring jq-1.5.el_capitan.bottle.1.tar.gz
+Error: The <span style=color:#e6db74>`</span>brew link<span style=color:#e6db74>`</span> step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink include/jq.h
+/usr/local/include is not writable.
+
+You can try again using:
+  brew link jq
+<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Summary
+🍺  /usr/local/Cellar/jq/1.5: <span style=color:#ae81ff>17</span> files, 953.3K
+</code></pre></div><p>Following the suggestion, I tried to link jq:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ brew link jq
+Linking /usr/local/Cellar/jq/1.5...
+Error: Could not symlink lib/libjq.1.dylib
+/usr/local/lib is not writable.
+</code></pre></div><p>No luck. So I made /usr/local/lib writeable by my user and then retried:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ sudo chown -R <span style=color:#66d9ef>$(</span>whoami<span style=color:#66d9ef>)</span> /usr/local/lib
+$ brew link jq
+Linking /usr/local/Cellar/jq/1.5... <span style=color:#ae81ff>8</span> symlinks created
+</code></pre></div><p>That seemed to have worked, but when I tried to run a jq command I hit more errors:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ vault read -format<span style=color:#f92672>=</span>json secret/baz | jq -r .data.value
+dyld: Library not loaded: /usr/local/lib/libonig.2.dylib
+  Referenced from: /usr/local/bin/jq
+  Reason: image not found
+Trace/BPT trap: <span style=color:#ae81ff>5</span>
+</code></pre></div><p>So I tried removing jq and starting again:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ brew remove jq
+Uninstalling /usr/local/Cellar/jq/1.5... <span style=color:#f92672>(</span><span style=color:#ae81ff>17</span> files, 953.3K<span style=color:#f92672>)</span>
+$ brew install jq
+Error: You must <span style=color:#e6db74>`</span>brew link oniguruma<span style=color:#e6db74>`</span> before jq can be installed
+</code></pre></div><p>Fine.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ brew link oniguruma
+Linking /usr/local/Cellar/oniguruma/5.9.6... <span style=color:#ae81ff>8</span> symlinks created
+</code></pre></div><p>Third time lucky&mldr;</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ brew install jq
+<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Downloading https://homebrew.bintray.com/bottles/jq-1.5.el_capitan.bottle.1.tar.gz
+Already downloaded: /Library/Caches/Homebrew/jq-1.5.el_capitan.bottle.1.tar.gz
+<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Pouring jq-1.5.el_capitan.bottle.1.tar.gz
+🍺  /usr/local/Cellar/jq/1.5: <span style=color:#ae81ff>17</span> files, 953.3K
+</code></pre></div><p>Woot. Fingers crossed&mldr;</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$vault read -format<span style=color:#f92672>=</span>json secret/baz | jq -r .data.value
+bar
+</code></pre></div><p>Just in case you run into the same issue :-)</p><footer>&#171; <a href=https://awolski.com/the-things-you-discover-jq-and-httpie/>Previous</a>
+||
+<a href=https://awolski.com/oneplus-2-fingerprint-sensor-not-working-turn-off-gestures/>Next</a> &#187;</footer></article><div id=comments><strong>Your thoughts?</strong> I'd love to hear them. Please get in <a href=/contact>contact</a>.</div></div></body></html>

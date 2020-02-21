@@ -1,0 +1,33 @@
+<!doctype html><html lang=en-gb><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content="no-referrer"><link rel=stylesheet type=text/css href=/style.css><title>Upgrade Docker on Travis CI | Tony Wolski</title><link rel=canonical href=https://awolski.com/upgrade-docker-on-travis-ci/></head><body><section id=masthead><h1><a href=/ title="Tony Wolski">Tony Wolski</a></h1><nav><ul><li><a href=/contact title=Contact>Contact</a></li></ul></nav></section><div id=content><article class=post><header><h1>Upgrade Docker on Travis CI</h1><small>2015-11-27</small></header><p>If you need to make use of Docker&rsquo;s latest and greatest features — like <a href=http://docs.docker.com/engine/reference/builder/#arg>build time arguments</a> — in your travis-ci builds, you can easily do so by upgrading the default docker-engine version travis-ci&rsquo;s build environment. Read on to find out how&mldr;</p><p>I recently created a Dockerfile using Docker&rsquo;s new <code>ARG</code> instruction - which is awesome by the way. But when I went to setup a travis-ci build I discovered the travis build environment still uses docker-engine 1.8.2, so I was getting this:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>Step <span style=color:#ae81ff>2</span> : ENV REFRESHED_AT 2015-11-22
+ ---&gt; Running in 4541847869ed
+ ---&gt; 7ad06199892e
+Removing intermediate container 4541847869ed
+Step <span style=color:#ae81ff>3</span> : ARG 
+Unknown instruction: ARG
+</code></pre></div><p>It turns out it is really quite straightforward to upgrade to the latest version of docker engine, 1.9.1 in my case. Simply add these lines to your <code>.travis.yml</code> file:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#66d9ef>before_install</span>:
+  - sudo apt-get update
+  - sudo apt-get install docker-engine
+</code></pre></div><p>The output from the build after adding the above lines should contain this:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ sudo apt-get install docker-engine
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages will be upgraded:
+  docker-engine
+<span style=color:#ae81ff>1</span> upgraded, <span style=color:#ae81ff>0</span> newly installed, <span style=color:#ae81ff>0</span> to remove and <span style=color:#ae81ff>102</span> not upgraded.
+Need to get 7,486 kB of archives.
+After this operation, 9,517 kB of additional disk space will be used.
+Fetched 7,486 kB in 0s <span style=color:#f92672>(</span>9,949 kB/s<span style=color:#f92672>)</span>
+<span style=color:#f92672>(</span>Reading database ... <span style=color:#ae81ff>135346</span> files and directories currently installed.<span style=color:#f92672>)</span>
+Preparing to unpack .../docker-engine_1.9.1-0~trusty_amd64.deb ...
+docker stop/waiting
+Unpacking docker-engine <span style=color:#f92672>(</span>1.9.1-0~trusty<span style=color:#f92672>)</span> over <span style=color:#f92672>(</span>1.8.2-0~trusty<span style=color:#f92672>)</span> ...
+Processing triggers <span style=color:#66d9ef>for</span> ureadahead <span style=color:#f92672>(</span>0.100.0-16<span style=color:#f92672>)</span> ...
+Processing triggers <span style=color:#66d9ef>for</span> man-db <span style=color:#f92672>(</span>2.6.7.1-1ubuntu1<span style=color:#f92672>)</span> ...
+Not building database; man-db/auto-update is not <span style=color:#e6db74>&#39;true&#39;</span>.
+Setting up docker-engine <span style=color:#f92672>(</span>1.9.1-0~trusty<span style=color:#f92672>)</span> ...
+Installing new version of config file /etc/init.d/docker ...
+Installing new version of config file /etc/bash_completion.d/docker ...
+docker start/running, process <span style=color:#ae81ff>3264</span>
+</code></pre></div><p><strong>A word of note</strong>: Heed travis-ci&rsquo;s recommendation to <a href=https://docs.travis-ci.com/user/installing-dependencies/#A-word-on-apt-get-upgrade>avoid apt-get upgrade</a>:</p><blockquote><p>We recommend you avoid running apt-get upgrade, as it will upgrade every single package for which apt-get can find a newer version. As we install quite a few packages by default, this could end up downloading and installing up to 500MB of packages.</p><p>This extends your build time quite significantly, so we generally recommend you avoid using it in your builds.</p><p>If you need to upgrade a very specific package, you can run a normal ‘apt-get install’, which will install the latest version available.</p></blockquote><p>I tried <code>apt-get upgrade</code> initially and the difference in build time is significant, as it would be when you&rsquo;re upgrading every single package in the build environment. In my case it was almost double (build #9 in the image below) compared to when I switched to <code>apt-get install</code>.</p><footer>&#171; <a href=https://awolski.com/fixing-node-gyp-make-failed-on-centos-in-docker/>Previous</a>
+||
+<a href=https://awolski.com/book-review-minimalism-live-a-meaningful-life/>Next</a> &#187;</footer></article><div id=comments><strong>Your thoughts?</strong> I'd love to hear them. Please get in <a href=/contact>contact</a>.</div></div></body></html>
