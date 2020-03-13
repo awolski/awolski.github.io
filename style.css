@@ -66,8 +66,13 @@ li {
     margin-bottom: 0.6em;
 }
 
+section#masthead {
+    display: flex;
+    justify-content: space-between;
+}
+
 section#masthead h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
 }
 
@@ -84,6 +89,15 @@ section#masthead nav ul {
 section#masthead nav ul li {
     display: inline;
     margin-right: 1em;
+}
+
+div#content {
+    margin-top: 3em;
+}
+
+section#recentposts ul {
+    list-style: none;
+    padding-left: 0;
 }
 
 small, .small, footer {
