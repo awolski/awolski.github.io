@@ -1,9 +1,9 @@
-<!doctype html><html lang=en-gb><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet href=https://awolski.com/style.css><title>Problem installing jq on OS X using Homebrew | Tony Wolski</title><meta name=description content="Tony Wolski: This is just a quick post for reference as I had issues installing jq on my machine this evening."><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=referrer content="no-referrer"><meta name=generator content="Hugo 0.64.0"><link rel=canonical href=https://awolski.com/problem-installing-jq-on-os-x-using-homebrew/></head><body><section id=masthead><h1><a href=/ title="Tony Wolski">Tony Wolski</a></h1><nav><ul><li><a href=/contact title=Contact>Contact</a></li></ul></nav></section><div id=content><article class=post><header><h1>Problem installing jq on OS X using Homebrew</h1><small>2016-01-16</small></header><p>This is just a quick post for reference as I had issues installing <a href=https://stedolan.github.io/jq/>jq</a> on my machine this evening.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ brew install jq
-<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Installing dependencies <span style=color:#66d9ef>for</span> jq: oniguruma
-<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Installing jq dependency: oniguruma
-<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Downloading https://homebrew.bintray.com/bottles/oniguruma-5.9.6.el_capitan.bottle.1.tar.gz
+<!doctype html><html lang=en-gb><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet href=https://awolski.com/style.css><title>Problem installing jq on OS X using Homebrew | Tony Wolski</title><meta name=description content="Tony Wolski: This is just a quick post for reference as I had issues installing jq on my machine this evening."><meta name=author content="Tony Wolski"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=referrer content="no-referrer"><meta name=generator content="Hugo 0.69.0"><link rel=canonical href=https://awolski.com/problem-installing-jq-on-os-x-using-homebrew/></head><body><section id=masthead><h1><a href=/ title="Tony Wolski">Tony Wolski</a></h1><nav><ul><li><a href=/contact title=Contact>Contact</a></li></ul></nav></section><div id=content><article class=post><header><h1>Problem installing jq on OS X using Homebrew</h1><small>2016-01-16</small></header><p>This is just a quick post for reference as I had issues installing <a href=https://stedolan.github.io/jq/>jq</a> on my machine this evening.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ brew install jq
+<span style=color:#f92672>==</span>&gt; Installing dependencies <span style=color:#66d9ef>for</span> jq: oniguruma
+<span style=color:#f92672>==</span>&gt; Installing jq dependency: oniguruma
+<span style=color:#f92672>==</span>&gt; Downloading https://homebrew.bintray.com/bottles/oniguruma-5.9.6.el_capitan.bottle.1.tar.gz
 <span style=color:#75715e>######################################################################## 100.0%</span>
-<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Pouring oniguruma-5.9.6.el_capitan.bottle.1.tar.gz
+<span style=color:#f92672>==</span>&gt; Pouring oniguruma-5.9.6.el_capitan.bottle.1.tar.gz
 Error: The <span style=color:#e6db74>`</span>brew link<span style=color:#e6db74>`</span> step did not complete successfully
 The formula built, but is not symlinked into /usr/local
 Could not symlink include/oniggnu.h
@@ -11,12 +11,12 @@ Could not symlink include/oniggnu.h
 
 You can try again using:
   brew link oniguruma
-<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Summary
+<span style=color:#f92672>==</span>&gt; Summary
 🍺  /usr/local/Cellar/oniguruma/5.9.6: <span style=color:#ae81ff>12</span> files, 1M
-<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Installing jq
-<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Downloading https://homebrew.bintray.com/bottles/jq-1.5.el_capitan.bottle.1.tar.gz
+<span style=color:#f92672>==</span>&gt; Installing jq
+<span style=color:#f92672>==</span>&gt; Downloading https://homebrew.bintray.com/bottles/jq-1.5.el_capitan.bottle.1.tar.gz
 <span style=color:#75715e>######################################################################## 100.0%</span>
-<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Pouring jq-1.5.el_capitan.bottle.1.tar.gz
+<span style=color:#f92672>==</span>&gt; Pouring jq-1.5.el_capitan.bottle.1.tar.gz
 Error: The <span style=color:#e6db74>`</span>brew link<span style=color:#e6db74>`</span> step did not complete successfully
 The formula built, but is not symlinked into /usr/local
 Could not symlink include/jq.h
@@ -24,7 +24,7 @@ Could not symlink include/jq.h
 
 You can try again using:
   brew link jq
-<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Summary
+<span style=color:#f92672>==</span>&gt; Summary
 🍺  /usr/local/Cellar/jq/1.5: <span style=color:#ae81ff>17</span> files, 953.3K
 </code></pre></div><p>Following the suggestion, I tried to link jq:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ brew link jq
 Linking /usr/local/Cellar/jq/1.5...
@@ -45,9 +45,9 @@ Error: You must <span style=color:#e6db74>`</span>brew link oniguruma<span style
 </code></pre></div><p>Fine.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ brew link oniguruma
 Linking /usr/local/Cellar/oniguruma/5.9.6... <span style=color:#ae81ff>8</span> symlinks created
 </code></pre></div><p>Third time lucky&mldr;</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ brew install jq
-<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Downloading https://homebrew.bintray.com/bottles/jq-1.5.el_capitan.bottle.1.tar.gz
+<span style=color:#f92672>==</span>&gt; Downloading https://homebrew.bintray.com/bottles/jq-1.5.el_capitan.bottle.1.tar.gz
 Already downloaded: /Library/Caches/Homebrew/jq-1.5.el_capitan.bottle.1.tar.gz
-<span style=color:#f92672>=</span><span style=color:#f92672>=</span>&gt; Pouring jq-1.5.el_capitan.bottle.1.tar.gz
+<span style=color:#f92672>==</span>&gt; Pouring jq-1.5.el_capitan.bottle.1.tar.gz
 🍺  /usr/local/Cellar/jq/1.5: <span style=color:#ae81ff>17</span> files, 953.3K
 </code></pre></div><p>Woot. Fingers crossed&mldr;</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$vault read -format<span style=color:#f92672>=</span>json secret/baz | jq -r .data.value
 bar
