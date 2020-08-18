@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/awolski
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://awolski.com
+  * I am awolski (https://keybase.io/awolski) on keybase.
+  * I have a public key ASDDdJn7VrNfDsrtc7JLZEqZnI8ddjN1VfsN8PssyZde5go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207d117aa8d7ea051659b31d9f407f38fd507e70c607e0b5343ce6392d77cb381a0a",
+      "host": "keybase.io",
+      "kid": "0120c37499fb56b35f0ecaed73b24b644a999c8f1d76337555fb0df0fb2cc9975ee60a",
+      "uid": "acb0cdb187c6da26c8457472b891c919",
+      "username": "awolski"
+    },
+    "merkle_root": {
+      "ctime": 1597784171,
+      "hash": "73d037c5f1cae03f8d7ffd92968d2b1f62ae0a547e51bbce6a2189eb1cc49f61b48a06ce48221bc6182c608fe6ff9fcd2f5b55ca451fd645b78a7ac199e12e70",
+      "hash_meta": "f3e226bde8ea31009aaf085c7ddac533d3d7755d24009bf085aed5b2dfbaf7e7",
+      "seqno": 17316198
+    },
+    "service": {
+      "entropy": "YJ/WSIW68js5put+xsjsWIWe",
+      "hostname": "awolski.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1597784213,
+  "expire_in": 504576000,
+  "prev": "bcc9f3926d47952416fe54eb9bbd6a13f600ac2ad29489c61bdff23fd6383624",
+  "seqno": 68,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgw3SZ+1azXw7K7XOyS2RKmZyPHXYzdVX7DfD7LMmXXuYKp3BheWxvYWTESpcCRMQgvMnzkm1HlSQW/lTrm71qE/YArCrSlInGG9/yP9Y4NiTEINxidcvjdz/zv6kE1eHMMn09J/SX2u6R6DtQ3M03OfyeAgHCo3NpZ8RAWqtq/EK6pp7I41L7b9EAQLNu4gGY1t5do9NgUklTI3jGXHwuJR4tOfQcEou2THJu2XUAFwgE8kJWa3H/14asC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOrPtcIggXaBHV+p5xdyPHW70tfHMG9H8zWkMyPBhU1Fo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/awolski
+
+==================================================================
