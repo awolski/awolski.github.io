@@ -9,9 +9,9 @@
 body {
     color: #000;
     font-family: Georgia, serif;
-    font-size: 20px;
-    line-height: 30px;
-    max-width: 40em;
+    font-size: 1.125rem;
+    line-height: 1.55;
+    max-width: 50em;
     margin: 0 auto;
     padding: 5px;
 }
@@ -35,10 +35,6 @@ a img {
     border: none;
 }
 
-p {
-    margin: 1em 0;
-}
-
 h1 {
     font-size: 2em;
 }
@@ -52,9 +48,14 @@ h1, h2, h3, h4 {
     font-weight: lighter;
 }
 
-h1, h2, h3, dt, small, .small, footer, label, section#masthead nav ul li {
+h1, h2, h3, dt, small, .small, footer, label, #masthead nav ul li {
     font-family: 'Alegreya SC';
     font-weight: 700;
+}
+
+h2 small {
+    font-size: 0.7em;
+    margin-left: 3em;
 }
 
 img {
@@ -66,32 +67,37 @@ li {
     margin-bottom: 0.6em;
 }
 
-section#masthead {
-    display: flex;
-    justify-content: space-between;
+article footer {
+    margin: 1em auto;
 }
 
-section#masthead h1 {
-    font-size: 2em;
+#masthead {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+
+#masthead h1 {
+    font-size: 1.5em;
     margin: 0;
 }
 
-section#masthead a {
+#masthead a {
     color: #000;
 }
 
-section#masthead nav ul {
+#masthead nav ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
 }
 
-section#masthead nav ul li {
+#masthead nav ul li {
     display: inline;
     margin-right: 1em;
 }
 
-div#content {
+main {
     margin-top: 3em;
 }
 
@@ -101,7 +107,6 @@ section#recentposts ul {
 }
 
 small, .small, footer {
-    font-size: 0.8em;
     color: #666;
 }
 
@@ -179,10 +184,6 @@ em, q, em, dfn {
     font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
 }
 
-strong {
-    font-weight: 600;
-}
-
 q:before {
     content: "\201C";
 }
@@ -208,10 +209,7 @@ th {
 }
 
 hr {
-    width: 40%;
-    height: 1px;
-    background: #403c3b;
-    margin: 25px auto;
+    margin: 2em auto;
 }
 
 @media (max-width: 750px) {
