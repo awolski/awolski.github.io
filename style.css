@@ -15,8 +15,8 @@ h2 small {
     margin-left: 3rem;
 }
 
-p {
-  line-height: 1.4rem;
+p, ul li {
+  line-height: 1.3rem;
 }
 
 img {
